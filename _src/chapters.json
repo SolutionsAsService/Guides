@@ -1,0 +1,66 @@
+{
+  "name": "Compass & Trail",
+  "tagline": "An open handbook for scouts",
+  "chapters": [
+    { "slug": "compass", "num": 1, "name": "Compass navigation", "short": "Compass", "color": "#b2441a",
+      "blurb": "Take and follow a bearing with a lensatic compass, find where you are, and map an area by pacing.",
+      "checks": [
+        "Name the parts of a lensatic compass and say what each one does.",
+        "Take a bearing to a landmark and read it within 2° of a partner's reading.",
+        "Set a bearing on the bezel ring by counting clicks, and follow it to a marker at least 100 m away.",
+        "Convert a magnetic bearing to a true bearing for your area, and work out its back bearing.",
+        "Know your pace count for 100 metres on flat ground.",
+        "Find your position on a map from bearings to two or more landmarks.",
+        "Survey a campsite by compass and pacing, and draw it with a north arrow and scale bar."
+      ] },
+    { "slug": "maps", "num": 2, "name": "Reading a topographic map", "short": "Maps", "color": "#8a5a2b",
+      "blurb": "Scale, symbols and contour lines: read the shape of the land before you walk it.",
+      "checks": [
+        "Explain what a map's scale means, and measure a route's length on the map.",
+        "Name what the main map colours show.",
+        "Point out a hill, valley, ridge, saddle and steep slope from the contour lines alone.",
+        "Give a six-figure grid reference for a point, and find a point from one.",
+        "Orient a map with a compass so that it lines up with the land.",
+        "Plan a day route and estimate how long it will take."
+      ] },
+    { "slug": "essentials", "num": 3, "name": "The Ten Essentials and trip planning", "short": "Essentials", "color": "#1f6f6b",
+      "blurb": "What to carry on every outing, what to leave with someone at home, and how to keep water safe.",
+      "checks": [
+        "Pack the Ten Essentials for a day hike and explain why each one is there.",
+        "Write a trip plan and leave it with a responsible adult.",
+        "Choose clothing layers for the forecast, without relying on cotton.",
+        "Make water safe to drink by boiling, filtering or chemical treatment."
+      ] },
+    { "slug": "knots", "num": 4, "name": "Knots and rope", "short": "Knots", "color": "#2b6ca3",
+      "blurb": "Seven knots that cover nearly every job in camp, with what each is for and how to tie it.",
+      "checks": [
+        "Tie a square knot and say when not to use it.",
+        "Tie a bowline around your own waist.",
+        "Tie two half hitches and a clove hitch around a post.",
+        "Tie a taut-line hitch on a tent guy line and adjust it.",
+        "Join two ropes of different thickness with a sheet bend.",
+        "Tie a timber hitch and use it to drag a log.",
+        "Whip or seal the end of a rope, and coil it for storage."
+      ] },
+    { "slug": "camping", "num": 5, "name": "Camping and Leave No Trace", "short": "Camping", "color": "#2f6b3a",
+      "blurb": "Pick a safe site, store food, handle fire and stoves, and leave the place better than you found it.",
+      "checks": [
+        "Choose a tent site and explain why it is safe and durable.",
+        "Name the seven Leave No Trace principles and give an example of each.",
+        "Light, manage and fully put out a fire where fires are allowed.",
+        "Use a camp stove safely, including refuelling.",
+        "Store food and scented items so that animals cannot get them.",
+        "Dig a cathole the right depth and distance from water."
+      ] },
+    { "slug": "first-aid", "num": 6, "name": "First aid in the field", "short": "First aid", "color": "#6b4a8c",
+      "blurb": "A refresher for the problems scouts meet most outdoors. It is not a replacement for a course.",
+      "checks": [
+        "Explain the first steps at any emergency: scene, person, call, care.",
+        "Show how to control bleeding with direct pressure.",
+        "Treat a minor burn and a blister.",
+        "Recognise heat exhaustion, heat stroke and hypothermia, and say what to do for each.",
+        "Remove a tick correctly.",
+        "Pack a group first-aid kit and say what each item is for."
+      ] }
+  ]
+}

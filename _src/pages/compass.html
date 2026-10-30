@@ -1,0 +1,199 @@
+title: Compass navigation · Compass & Trail
+description: How to use a lensatic compass: its parts, taking and following a bearing, declination, pacing, finding your position by resection and mapping an area.
+---
+<h2 id="parts">The lensatic compass</h2>
+<p>A lensatic compass is built for sighting. You look through a slot at a distant landmark, line it up with a wire, and read the direction through a small magnifying lens without moving the compass away from your eye. That makes it more precise than a flat baseplate compass for taking bearings, at the cost of being harder to use directly on a map.</p>
+<figure class="fig">
+<div class="fig-scroll" tabindex="0" role="group" aria-label="Diagram, scrolls sideways on small screens"><svg viewBox="0 0 660 270" role="img" aria-labelledby="fig-parts-t">
+  <title id="fig-parts-t">Top view of an open lensatic compass, with its parts labelled from left to right: thumb loop, lens bracket with rear sight slot, compass housing with floating dial and bezel ring, and cover with sighting wire.</title>
+  <g class="d-line">
+    <ellipse cx="52" cy="135" rx="24" ry="30"/>
+    <rect x="96" y="104" width="54" height="62" rx="6"/>
+    <circle cx="123" cy="135" r="13"/>
+    <line x1="123" y1="104" x2="123" y2="96"/>
+    <circle cx="290" cy="135" r="112"/>
+    <circle cx="290" cy="135" r="98" class="d-soft"/>
+    <rect x="420" y="70" width="190" height="130" rx="10"/>
+    <rect x="470" y="88" width="90" height="94" rx="4" class="d-soft"/>
+    <line x1="515" y1="88" x2="515" y2="182" class="d-wire"/>
+  </g>
+  <g class="d-ticks">
+    <line x1="290" y1="45" x2="290" y2="58"/><line x1="380" y1="135" x2="367" y2="135"/><line x1="290" y1="225" x2="290" y2="212"/><line x1="200" y1="135" x2="213" y2="135"/>
+  </g>
+  <path d="M290 62 300 135h-20Z" class="d-accent"/>
+  <path d="M290 208 300 135h-20Z" class="d-soft-fill"/>
+  <line x1="290" y1="23" x2="290" y2="38" class="d-index"/>
+  <rect x="284" y="23" width="12" height="5" class="d-lum"/>
+  <g class="d-label">
+    <line x1="52" y1="105" x2="52" y2="40"/><text x="52" y="32" text-anchor="middle">Thumb loop</text>
+    <line x1="123" y1="166" x2="123" y2="236"/><text x="123" y="254" text-anchor="middle">Lens and rear sight</text>
+    <line x1="352" y1="70" x2="390" y2="30"/><text x="395" y="28">Bezel ring (3° a click)</text>
+    <line x1="284" y1="30" x2="230" y2="22"/><text x="224" y="27" text-anchor="end">Index line</text>
+    <line x1="330" y1="190" x2="360" y2="240"/><text x="365" y="254">Floating dial</text>
+    <line x1="515" y1="200" x2="515" y2="236"/><text x="515" y="254" text-anchor="middle">Cover and sighting wire</text>
+  </g>
+</svg></div>
+<figcaption>Open flat, from above. In use, the cover stands upright and the lens bracket tilts up to about 45°.</figcaption>
+</figure>
+<dl class="parts">
+  <div><dt>Cover and sighting wire</dt><dd>Protects the dial when closed. Opened upright, its thin wire is the front sight you line up on a landmark.</dd></div>
+  <div><dt>Lens and rear sight</dt><dd>The bracket holds a magnifying lens for reading the dial and a slot you look through, like the rear sight on a rifle.</dd></div>
+  <div><dt>Floating dial</dt><dd>Carries the magnet and spins freely to point at magnetic north. It shows degrees and mils (6,400 to a circle); in this handbook we use degrees.</dd></div>
+  <div><dt>Fixed index line</dt><dd>A black line on the glass. The number under it is your bearing.</dd></div>
+  <div><dt>Bezel ring</dt><dd>A notched ring around the glass that clicks in steps of 3° and carries a short luminous line. Use it to set a bearing you want to follow, even in the dark.</dd></div>
+  <div><dt>Thumb loop</dt><dd>Steadies the compass in your hand. To lock the dial for carrying, fold the lens bracket down over the glass before you close the cover.</dd></div>
+</dl>
+
+<h2 id="three-norths">Bearings and the three norths</h2>
+<p>A <strong>bearing</strong> (also called an azimuth) is a direction given as an angle measured clockwise from north: 0° or 360° is north, 90° east, 180° south and 270° west.</p>
+<p>The catch is that there are three norths, and a bearing is only useful if you know which one it is measured from.</p>
+<div class="split">
+<figure class="fig fig-sm">
+<svg viewBox="0 0 220 240" role="img" aria-labelledby="fig-dec-t">
+  <title id="fig-dec-t">A declination diagram like the one in the margin of a topographic map: three lines rise from one point. The middle one, topped by a star, is true north. One to its right, with a half arrowhead, is magnetic north. A third close to true north is grid north.</title>
+  <line x1="110" y1="220" x2="110" y2="40" class="d-line"/>
+  <path d="M110 22 114 34 126 34 116 41 120 53 110 46 100 53 104 41 94 34 106 34Z" class="d-ink-fill"/>
+  <line x1="110" y1="220" x2="158" y2="50" class="d-line d-accent-line"/>
+  <path d="M158 50 148 70 160 66Z" class="d-accent"/>
+  <line x1="110" y1="220" x2="100" y2="58" class="d-line"/>
+  <text x="96" y="76" text-anchor="end" class="d-small">GN</text>
+  <text x="166" y="52" class="d-small">MN</text>
+  <text x="132" y="34" class="d-small">TN</text>
+  <path d="M110 150 A70 70 0 0 1 129 152" class="d-line" fill="none"/>
+  <text x="126" y="142" class="d-small">dec.</text>
+</svg>
+<figcaption>An east declination, not to scale.</figcaption>
+</figure>
+<dl class="parts">
+  <div><dt>True north (TN)</dt><dd>The direction to the North Pole. Map edges run true north–south.</dd></div>
+  <div><dt>Magnetic north (MN)</dt><dd>Where your compass needle points. It wanders slowly, year by year.</dd></div>
+  <div><dt>Grid north (GN)</dt><dd>The direction of the vertical grid lines printed on the map. It is within a degree or two of true north on most US maps, so scouts usually treat the two as the same.</dd></div>
+</dl>
+</div>
+<p>The angle between true and magnetic north is the <strong>declination</strong>. Depending on where you are it can be close to zero or more than 15°, so ignoring it can put you hundreds of metres off over a few kilometres.</p>
+
+<h2 id="taking">Taking a bearing</h2>
+<p>Use the <em>compass-to-cheek</em> method whenever you need accuracy.</p>
+<ol class="steps">
+  <li><strong>Get clear of metal.</strong> Step away from cars, fences and power lines, and hold your phone, knife and metal bottle away from the compass (see <a href="#accuracy">accuracy</a>).</li>
+  <li><strong>Open it.</strong> Stand the cover straight up, tilt the lens bracket up to about 45°, and put your thumb through the thumb loop.</li>
+  <li><strong>Raise it to your eye.</strong> Hold the compass level against your cheek, and look through the rear sight slot.</li>
+  <li><strong>Sight the target.</strong> Turn your whole body until the sighting wire lines up with the landmark: a lone tree, a building corner, a summit.</li>
+  <li><strong>Read the dial.</strong> Without moving, glance down through the lens and let the dial settle. The number under the fixed index line is your magnetic bearing.</li>
+  <li><strong>Write it down,</strong> with what you sighted and whether it is magnetic or true, for example "lone pine, 142° M".</li>
+</ol>
+<p class="tip">For a quick reading that needs to be within about 5°, use the <em>centre-hold</em> method. Open the cover flat, hold the compass level in front of your stomach with both hands, and point the cover at the target.</p>
+
+<h2 id="following">Following a bearing</h2>
+<p>In daylight, turn your body until the bearing you want sits under the index line. Then sight along the wire and pick a landmark on that line. Walk to it, and repeat. Choosing landmarks and walking between them lets you go around obstacles without losing the line.</p>
+<p>The bezel ring lets you set a bearing in advance, even at night:</p>
+<ol class="steps">
+  <li>Turn the bezel until its luminous line sits directly over the fixed index line. This is your zero.</li>
+  <li>Divide the bearing by 3 to get the number of clicks. For 81°, that is 27 clicks.</li>
+  <li>Turn the bezel counterclockwise that many clicks.</li>
+  <li>Hold the compass in the centre-hold position and turn your body until the north arrow on the dial lines up with the luminous line. You are now facing your bearing.</li>
+</ol>
+<p class="tip">If your bearing is not a multiple of 3, set the nearest click and correct by eye. A 1° error is about 17 m over a kilometre.</p>
+
+<h2 id="declination">Correcting for declination</h2>
+<p>Find your declination in the diagram in your map's margin, and check the current value with the <a href="https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml" rel="noopener">NOAA magnetic field calculator</a>, because the printed one may be decades old. Then convert:</p>
+<ul class="rules">
+  <li><strong>Magnetic to true</strong> (compass → map): <em>add</em> an east declination, <em>subtract</em> a west one.</li>
+  <li><strong>True to magnetic</strong> (map → compass): <em>subtract</em> an east declination, <em>add</em> a west one.</li>
+</ul>
+<p>A <strong>back bearing</strong> is the direction back the way you came, or from a landmark to you. Add 180° if the bearing is less than 180°, and subtract 180° if it is 180° or more.</p>
+<form class="calc" id="calc" aria-labelledby="calc-h">
+  <h3 id="calc-h">Bearing calculator</h3>
+  <div class="calc-grid">
+    <label>Bearing<input id="c-bearing" type="number" inputmode="decimal" min="0" max="360" step="any" value="75"></label>
+    <label>It is<select id="c-from"><option value="m">magnetic (compass)</option><option value="t">true (map)</option></select></label>
+    <label>Declination<input id="c-dec" type="number" inputmode="decimal" min="0" max="40" step="any" value="10"></label>
+    <label>Direction<select id="c-dir"><option value="E">east</option><option value="W">west</option></select></label>
+  </div>
+  <output id="c-out" for="c-bearing c-from c-dec c-dir" aria-live="polite">Magnetic 75° is true 85°. The back bearing is 265° true, 255° magnetic.</output>
+</form>
+
+<h2 id="distance">Measuring distance by pacing</h2>
+<p>Over short distances, use a tape. Everywhere else, count paces. A <strong>pace</strong> is two steps: count each time your left foot lands.</p>
+<ol class="steps">
+  <li>Measure out 100 m on flat ground with a tape, or use a running track.</li>
+  <li>Walk it at your normal hiking pace, counting paces. Do it three times and take the average. Most people take 60 to 70 paces.</li>
+  <li>Write your number inside your compass cover or notebook. That is your pace count.</li>
+</ol>
+<p>Your pace shortens uphill, in thick brush, in the dark and when you are carrying a heavy pack, so your count goes up. Practise on a slope to learn by how much. To keep count over long distances, move a bead along a cord or a pebble between pockets every 100 m.</p>
+
+<h2 id="resection">Finding where you are</h2>
+<p>If you can see landmarks that are on your map, you can find your own position. This is called <strong>resection</strong>, though many guides call it triangulation.</p>
+<figure class="fig">
+<div class="fig-scroll" tabindex="0" role="group" aria-label="Diagram, scrolls sideways on small screens"><svg viewBox="0 0 560 280" role="img" aria-labelledby="fig-res-t">
+  <title id="fig-res-t">Resection on a map. A radio tower in the upper left and a summit in the upper right are both marked. A line is drawn from each along its back bearing, and the two lines cross at the observer's position, lower centre.</title>
+  <rect x="10" y="10" width="540" height="260" rx="6" class="d-line d-paper"/>
+  <g class="d-contour"><ellipse cx="440" cy="70" rx="40" ry="26"/><ellipse cx="440" cy="70" rx="70" ry="46"/><ellipse cx="440" cy="70" rx="100" ry="66"/></g>
+  <path d="M120 40 132 70 108 70Z" class="d-ink-fill"/><text x="140" y="56" class="d-small">Radio tower</text>
+  <path d="M440 64 446 76 434 76Z" class="d-ink-fill"/><text x="456" y="80" class="d-small">Summit</text>
+  <line x1="120" y1="62" x2="303" y2="221" class="d-line d-accent-line"/>
+  <line x1="440" y1="72" x2="303" y2="221" class="d-line d-accent-line"/>
+  <circle cx="303" cy="221" r="9" class="d-line d-you"/>
+  <text x="318" y="250" class="d-small">You are here</text>
+  <text x="222" y="128" text-anchor="middle" class="d-small" transform="rotate(41 222 128)">back bearing 131°</text>
+  <text x="386" y="166" text-anchor="middle" class="d-small" transform="rotate(-47 386 166)">back bearing 223°</text>
+</svg></div>
+<figcaption>You took 311° to the tower and 43° to the summit (true). Their back bearings, 131° and 223°, cross where you stand.</figcaption>
+</figure>
+<ol class="steps">
+  <li>Orient your map (see <a href="maps.html#orient">Reading a topographic map</a>) and identify two or three landmarks that appear on it, ideally about 60° to 120° apart as seen from you.</li>
+  <li>Take a bearing to each, and convert each to true.</li>
+  <li>Work out each back bearing.</li>
+  <li>With a protractor, draw a line on the map from each landmark along its back bearing. Where the lines cross is your position.</li>
+  <li>With three landmarks the lines rarely meet at one point. They make a small <em>triangle of error</em>, and you are inside it. A large triangle means a bad reading: take the bearings again.</li>
+</ol>
+<p>If you know you are on a linear feature such as a trail, a river or a ridge, one bearing is enough. You are where that back bearing crosses the feature.</p>
+
+<h2 id="mapping">Mapping an area</h2>
+<p>You can map a campsite, a trail or a stretch of creek with nothing more than a compass, your pace count and a notebook. Walk a chain of straight <em>legs</em> between points you choose (called stations). For each leg, write down the bearing and the distance.</p>
+<div class="table-wrap"><table class="log">
+  <caption>A field notebook page for a short traverse around a campsite</caption>
+  <thead><tr><th scope="col">Leg</th><th scope="col">From → to</th><th scope="col">Bearing (true)</th><th scope="col">Paces</th><th scope="col">Metres</th><th scope="col">Notes</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Gate → fire ring</td><td>064°</td><td>38</td><td>58</td><td>Trail on left</td></tr>
+    <tr><td>2</td><td>Fire ring → big oak</td><td>151°</td><td>21</td><td>32</td><td>Picnic table 10 m right</td></tr>
+    <tr><td>3</td><td>Big oak → water tap</td><td>232°</td><td>30</td><td>46</td><td>Ground slopes down</td></tr>
+    <tr><td>4</td><td>Water tap → gate</td><td>316°</td><td>29</td><td>44</td><td>Ends about 1 m from the gate</td></tr>
+  </tbody>
+</table></div>
+<ol class="steps">
+  <li><strong>Start the sheet.</strong> Draw a north arrow and a scale bar, for example 1 cm = 5 m, and mark your starting station.</li>
+  <li><strong>Plot each leg.</strong> Lay a protractor on the station, mark the bearing, and draw a line of the right length to scale.</li>
+  <li><strong>Add features</strong> from your notes, either measured from the nearest station or sketched by eye. Use simple, consistent symbols and include a key.</li>
+  <li><strong>Close the loop.</strong> If your last leg returns to the start, the gap between where it ends and where you began shows your total error. Under about 5% of the distance walked is good work.</li>
+  <li><strong>Finish the map</strong> with a title, the date, your name, the scale and whether north is true or magnetic.</li>
+</ol>
+
+<h2 id="slopes">Slopes and heights</h2>
+<p>A clinometer measures the angle of a slope. Some baseplate compasses have one built in, but a lensatic compass does not, so carry a separate clinometer or make one from a protractor, a straw and a weighted string.</p>
+<p>To estimate the height of a tree or cliff: stand a measured distance from its base, sight the top, and read the angle. The height is the distance times the tangent of the angle, plus your eye height. At 30 m and 35°, that is 30 × 0.70 = 21 m, plus about 1.5 m, so roughly 22.5 m. A useful shortcut: at 45°, the height above your eye equals your distance from the base.</p>
+
+<h2 id="accuracy">Accuracy and safety</h2>
+<p>Iron, steel and electric currents pull the needle. The US Army's land navigation manual gives safe distances like these:</p>
+<div class="table-wrap"><table class="log">
+  <caption>Approximate distances to keep a compass from metal (from US Army TC 3-25.26)</caption>
+  <thead><tr><th scope="col">Object</th><th scope="col">Keep at least</th></tr></thead>
+  <tbody>
+    <tr><td>High-voltage power lines</td><td>55 m</td></tr>
+    <tr><td>Cars and trucks</td><td>18 m</td></tr>
+    <tr><td>Telephone wires and barbed-wire fences</td><td>10 m</td></tr>
+    <tr><td>Phones, knives, metal bottles and belt buckles</td><td>arm's length</td></tr>
+  </tbody>
+</table></div>
+<ul class="rules">
+  <li>Take every important bearing twice. If two readings differ by more than 2°, take a third and average the two closest.</li>
+  <li>Cross-check with a GPS or phone where you have one, but never rely on a battery to get home.</li>
+  <li>Before you set out, leave your route and return time with someone responsible (see <a href="essentials.html#trip-plan">the trip plan</a>).</li>
+  <li>If you become lost: stop, think, observe, plan. Stay put if you cannot work out where you are.</li>
+</ul>
+
+<h2 id="kit">What to bring</h2>
+<ul class="kit">
+  <li>Lensatic compass</li><li>Topographic map of the area, in a waterproof bag</li><li>Notebook and pencil</li><li>Protractor and ruler</li><li>Measuring tape, for calibrating your pace</li><li>Clinometer (optional)</li><li>GPS or phone for cross-checking (optional)</li>
+</ul>
+<p class="source">This chapter grew from the original <a href="about.html#original">Surveying and Mapping with a Lensatic Compass</a> guide in this repository. The procedures follow the US Army's <a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf" rel="noopener">TC 3-25.26, Map Reading and Land Navigation</a>.</p>

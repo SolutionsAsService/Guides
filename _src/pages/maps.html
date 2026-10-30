@@ -1,0 +1,97 @@
+title: Reading a topographic map · Compass & Trail
+description: How to read a topographic map: scale, colours and symbols, contour lines and landforms, grid references, orienting the map and planning a route.
+---
+<h2 id="what">What a topographic map shows</h2>
+<p>A road map shows you where things are. A topographic map also shows the <em>shape</em> of the land: where it rises and falls, how steep it is, where the water runs and where the trees grow. It is the map to carry anywhere off the pavement.</p>
+<p>In the United States the standard is the US Geological Survey's 7.5-minute series, at a scale of 1:24,000. You can download current <a href="https://www.usgs.gov/programs/national-geospatial-program/topographic-maps" rel="noopener">US Topo maps free from the USGS</a>. Other countries have their own national mapping agencies, and the ideas in this chapter work the same way on their maps.</p>
+
+<h2 id="scale">Scale and distance</h2>
+<p>The scale tells you how much the land has been shrunk. At <strong>1:24,000</strong>, one unit on the map is 24,000 of the same unit on the ground: 1 cm on the map is 240 m, and 1 inch is 2,000 feet. About 4 cm on the map is a kilometre.</p>
+<ul class="rules">
+  <li>For a straight line, measure with a ruler and use the scale bar in the map margin.</li>
+  <li>For a winding trail, lay a piece of string along it, straighten the string, and measure that. Or walk a pair of dividers along the trail in small steps.</li>
+  <li>Distances on the map are flat distances. A steep trail is longer on the ground than it looks on paper.</li>
+</ul>
+
+<h2 id="colours">Colours and symbols</h2>
+<div class="table-wrap"><table class="log key">
+  <caption>What the colours mean on a USGS topographic map</caption>
+  <thead><tr><th scope="col">Colour</th><th scope="col">Shows</th></tr></thead>
+  <tbody>
+    <tr><td><span class="sw" style="--sw:#9a6a3a"></span>Brown</td><td>Contour lines: the shape and height of the land</td></tr>
+    <tr><td><span class="sw" style="--sw:#3b7fc4"></span>Blue</td><td>Water: rivers, lakes, springs, marshes and glaciers</td></tr>
+    <tr><td><span class="sw" style="--sw:#8fbf7a"></span>Green</td><td>Woods and other vegetation</td></tr>
+    <tr><td><span class="sw" style="--sw:#1d1f1c"></span>Black</td><td>Things people made: buildings, roads, trails, railways, boundaries and names</td></tr>
+    <tr><td><span class="sw" style="--sw:#c43c2c"></span>Red</td><td>Major roads, and survey lines that divide land</td></tr>
+    <tr><td><span class="sw" style="--sw:#ffffff"></span>White</td><td>Open ground with little or no tree cover</td></tr>
+  </tbody>
+</table></div>
+<p>The full list of symbols is in the USGS <a href="https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf" rel="noopener">Topographic Map Symbols</a> booklet. Read the margin of every new map, too: it gives the scale, the contour interval, the declination and the date the map was made.</p>
+
+<h2 id="contours">Contour lines</h2>
+<p>A contour line joins points at the same height above sea level. Imagine slicing a hill horizontally every 20 feet and drawing the edge of each slice from above. The <strong>contour interval</strong>, printed in the margin, is the height between neighbouring lines. Every fifth line is drawn thicker and labelled with its height. This is the <em>index contour</em>.</p>
+<figure class="fig">
+<div class="fig-scroll" tabindex="0" role="group" aria-label="Diagram, scrolls sideways on small screens"><svg viewBox="0 0 560 300" role="img" aria-labelledby="fig-ct-t">
+  <title id="fig-ct-t">Above, a hill seen from overhead as rings of contour lines, packed close together on the steep left side and spread wide on the gentle right side. Below, the same hill in profile: steep on the left, gentle on the right.</title>
+  <g class="d-contour">
+    <path d="M70 110 C70 40 470 30 500 100 C520 160 90 180 70 110Z"/>
+    <path d="M100 108 C100 55 420 52 450 100 C465 140 115 155 100 108Z" class="ix"/>
+    <path d="M130 106 C130 70 370 68 395 102 C405 128 140 135 130 106Z"/>
+    <path d="M155 104 C155 82 315 82 335 104 C342 118 162 122 155 104Z"/>
+    <path d="M178 103 C180 92 255 92 268 103 C272 110 182 112 178 103Z"/>
+  </g>
+  <line x1="40" y1="104" x2="530" y2="104" class="d-line d-dash"/>
+  <g class="d-profile">
+    <line x1="40" y1="270" x2="530" y2="270" class="d-line"/>
+    <path d="M70 270 L100 246 L130 222 L155 198 L178 174 L222 160 L268 174 L335 198 L395 222 L450 246 L500 270Z" class="d-fill"/>
+  </g>
+  <g class="d-guides"><line x1="70" y1="104" x2="70" y2="270"/><line x1="178" y1="104" x2="178" y2="174"/><line x1="500" y1="104" x2="500" y2="270"/></g>
+  <text x="70" y="290" text-anchor="middle" class="d-small">steep: lines close</text>
+  <text x="470" y="290" text-anchor="middle" class="d-small">gentle: lines far apart</text>
+</svg></div>
+<figcaption>The same hill from above (top) and from the side, cut along the dashed line (bottom).</figcaption>
+</figure>
+<ul class="rules">
+  <li><strong>Close together</strong> means steep. <strong>Far apart</strong> means gentle. Lines that merge mean a cliff.</li>
+  <li>Contour lines never cross, and every line eventually closes on itself, even if that happens off the edge of your map.</li>
+  <li>Where contours cross a stream they bend into a <strong>V</strong> or U that points uphill, upstream.</li>
+</ul>
+
+<h2 id="landforms">Landforms to recognise</h2>
+<dl class="parts">
+  <div><dt>Hill or summit</dt><dd>A set of closed rings with the smallest, highest ring in the middle.</dd></div>
+  <div><dt>Ridge</dt><dd>A long line of high ground. Contours form Vs or Us that point <em>downhill</em>, away from the high ground.</dd></div>
+  <div><dt>Valley</dt><dd>Low ground between ridges, usually with a stream. Contours form Vs that point <em>uphill</em>.</dd></div>
+  <div><dt>Saddle</dt><dd>A low point on a ridge between two summits, shaped like an hourglass of contours. Trails often cross ridges at saddles.</dd></div>
+  <div><dt>Depression</dt><dd>A sinkhole or hollow: a closed ring with small tick marks (hachures) pointing inward, downhill.</dd></div>
+  <div><dt>Cliff</dt><dd>Contours that crowd together until they touch or merge.</dd></div>
+</dl>
+
+<h2 id="grid">Grid references</h2>
+<p>Most topographic maps are printed with a square grid. On US Topo maps it is the UTM grid, with lines every 1,000 m. A grid reference lets you give an exact location with a few numbers, and the rule is always <strong>read right, then up</strong>.</p>
+<ol class="steps">
+  <li>Find the square. Read the number of the vertical line on its left (the <em>easting</em>), then the number of the horizontal line along its bottom (the <em>northing</em>). Two digits each make a four-figure reference, such as <code>4127</code>, which names a 1 km square.</li>
+  <li>Divide the square into tenths in your head, or use a romer scale on your protractor. Count tenths across, then tenths up, and put each tenth after its two digits: <code>412 273</code>. This six-figure reference finds a point to within 100 m.</li>
+</ol>
+<p class="tip">To check your reading, swap with a partner. Each of you picks a feature and reads its reference, and the other finds it.</p>
+
+<h2 id="orient">Orienting the map</h2>
+<p>A map is easiest to read when it is <em>oriented</em>, turned so that north on the map points to north on the ground. Then the trail that runs left of the lake on paper also runs left of the lake in front of you.</p>
+<ol class="steps">
+  <li><strong>By the land.</strong> Pick two features you can see and identify on the map, such as a peak and a road. Turn the map until they line up with the real ones.</li>
+  <li><strong>By compass.</strong> Lay the open compass on the map with its straight edge along a north–south grid line, cover toward the top of the map. Work out the magnetic bearing of true north for your declination: with 10° east, true north is 350° magnetic. Turn the map and compass together, without moving the compass on the map, until 350° sits under the index line.</li>
+</ol>
+
+<h2 id="route">Planning a route</h2>
+<ol class="steps">
+  <li>Mark your start, finish and any places you must reach, such as water, a campsite or a bail-out point back to a road.</li>
+  <li>Follow trails where they exist. Off trail, prefer ridges and wide valleys, avoid crowded contours, and use <em>handrails</em>: linear features like streams or fences you can follow.</li>
+  <li>Measure each leg and add up the height you climb, by counting contour lines crossed uphill.</li>
+  <li>Estimate the time with <strong>Naismith's rule</strong>: 1 hour for every 5 km, plus 1 hour for every 600 m of climbing. For a troop with packs, 3 to 4 km an hour is more realistic. Add time for breaks.</li>
+  <li>Choose a turnaround time, and stick to it.</li>
+</ol>
+<div class="example">
+  <p class="ex-h">Worked example</p>
+  <p>A loop of 9 km with 360 m of climbing. At 4 km an hour that is 2¼ hours of walking. Climbing adds 360 ÷ 600 = 0.6 hours, about 35 minutes. With two 15-minute breaks, plan for about 3¼ hours.</p>
+</div>
+<p class="source">Sources: USGS <a href="https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf" rel="noopener">Topographic Map Symbols</a>, and US Army <a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf" rel="noopener">TC 3-25.26</a>.</p>

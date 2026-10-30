@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .bg { fill: #161814; } .ring { fill: none; stroke: #f2ede0; stroke-width: 2.4; } .n { fill: #e06a33; } .s { fill: #f2ede0; }
+    @media (prefers-color-scheme: dark) { .bg { fill: #f2ede0; } .ring { stroke: #161814; } .s { fill: #161814; } .n { fill: #b2441a; } }
+  </style>
+  <rect class="bg" width="32" height="32" rx="7"/>
+  <circle class="ring" cx="16" cy="16" r="11.5"/>
+  <path class="n" d="M16 5.5 20.2 16h-8.4Z"/>
+  <path class="s" d="M16 26.5 11.8 16h8.4Z"/>
+</svg>

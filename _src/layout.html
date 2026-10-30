@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="#f2ede0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151713" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap">
+<link rel="stylesheet" href="css/handbook.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="wrap mast-in">
+    <a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" class="m-ring"/><path d="M16 5 20 16h-8Z" class="m-n"/><path d="M16 27 12 16h8Z" class="m-s"/></svg><span>Compass &amp; Trail</span></a>
+    <nav aria-label="Chapters"><ul class="chap-nav">{{nav}}<li><a class="about" href="about.html"{{cur:about}}>About</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+{{body}}
+</main>
+<footer class="foot"><div class="wrap foot-in">
+  <p><strong>Compass &amp; Trail</strong> is an independent, open-source handbook. It is not affiliated with or endorsed by any scouting organisation. Learn hands-on skills from a qualified leader, and take a certified first-aid course.</p>
+  <p><a href="about.html#sources">Sources</a> · <a href="https://github.com/SolutionsAsService/Guides" rel="noopener">Source on GitHub</a> · MIT licensed</p>
+  <p><a href="https://demo.ultimatebusinessmachines.com/portfolio">Part of the Ultimate Business Machines portfolio</a></p>
+</div></footer>
+<script src="js/handbook.js" defer></script>
+</body>
+</html>

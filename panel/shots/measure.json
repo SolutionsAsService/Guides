@@ -1,0 +1,2462 @@
+{
+ "index-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 2392,
+  "lowContrast": [
+   {
+    "el": "p.kicker",
+    "text": "An open handbook for scouts",
+    "ratio": 4.81,
+    "need": 4.5
+   }
+  ],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "#chapters",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "essentials.html#ten",
+   "essentials.html#trip-plan",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass& Trail",
+   "fontSize": "160px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "compass-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 10101,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "Surveying and Mapping with a L",
+    "w": 364,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#parts",
+   "#three-norths",
+   "#taking",
+   "#following",
+   "#declination",
+   "#distance",
+   "#resection",
+   "#mapping",
+   "#slopes",
+   "#accuracy",
+   "#kit",
+   "#skills-h",
+   "#accuracy",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "maps.html#orient",
+   "essentials.html#trip-plan",
+   "about.html#original",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "maps.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass navigation",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "maps-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 6416,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "Topographic Map Symbols",
+    "w": 196,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "TC 3-25.26",
+    "w": 75,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#what",
+   "#scale",
+   "#colours",
+   "#contours",
+   "#landforms",
+   "#grid",
+   "#orient",
+   "#route",
+   "#skills-h",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "compass.html",
+   "essentials.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Reading a topographic map",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "essentials-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 4894,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "the first-aid kit",
+    "w": 110,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "The Mountaineers' Ten Essentia",
+    "w": 247,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#ten",
+   "#trip-plan",
+   "#layers",
+   "#water",
+   "#packing",
+   "#skills-h",
+   "first-aid.html#kit",
+   "#water",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "maps.html",
+   "knots.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "The Ten Essentials and trip planning",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "knots-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 7071,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#words",
+   "#square",
+   "#bowline",
+   "#half-hitches",
+   "#clove",
+   "#taut-line",
+   "#sheet-bend",
+   "#timber",
+   "#care",
+   "#skills-h",
+   "https://www.animatedknots.com/square-knot",
+   "https://www.animatedknots.com/bowline-knot",
+   "https://www.animatedknots.com/two-half-hitches-knot",
+   "https://www.animatedknots.com/clove-hitch-knot-rope-end",
+   "https://www.animatedknots.com/midshipmans-hitch-knot",
+   "https://www.animatedknots.com/sheet-bend-knot",
+   "https://www.animatedknots.com/timber-hitch-knot",
+   "essentials.html",
+   "camping.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Knots and rope",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "camping-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 5137,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#site",
+   "#lnt",
+   "#fire",
+   "#stoves",
+   "#food",
+   "#dishes",
+   "#leaving",
+   "#skills-h",
+   "https://lnt.org/why/7-principles/",
+   "knots.html",
+   "first-aid.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Camping and Leave No Trace",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "first-aid-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 6225,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#first-steps",
+   "#bleeding",
+   "#burns",
+   "#blisters",
+   "#sprains",
+   "#heat",
+   "#cold",
+   "#ticks",
+   "#kit",
+   "#skills-h",
+   "https://www.redcross.org/take-a-class/first-aid",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "camping.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "First aid in the field",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "about-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 2505,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "original/SurveyingAndMappingWithLensaticCompass.json",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://lnt.org/why/7-principles/",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.animatedknots.com/",
+   "https://github.com/SolutionsAsService/Guides",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "About this handbook",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "404-1440-light": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 900,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Off the map.",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "index-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 3686,
+  "lowContrast": [
+   {
+    "el": "p.kicker",
+    "text": "An open handbook for scouts",
+    "ratio": 4.81,
+    "need": 4.5
+   }
+  ],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "#chapters",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "essentials.html#ten",
+   "essentials.html#trip-plan",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass& Trail",
+   "fontSize": "71px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "compass-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 13954,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#parts",
+   "#three-norths",
+   "#taking",
+   "#following",
+   "#declination",
+   "#distance",
+   "#resection",
+   "#mapping",
+   "#slopes",
+   "#accuracy",
+   "#kit",
+   "#skills-h",
+   "#accuracy",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "maps.html#orient",
+   "essentials.html#trip-plan",
+   "about.html#original",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "maps.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass navigation",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "maps-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 8825,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "Topographic Map Symbols",
+    "w": 196,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "TC 3-25.26",
+    "w": 75,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#what",
+   "#scale",
+   "#colours",
+   "#contours",
+   "#landforms",
+   "#grid",
+   "#orient",
+   "#route",
+   "#skills-h",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "compass.html",
+   "essentials.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Reading a topographic map",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "essentials-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 6840,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "the first-aid kit",
+    "w": 110,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "The Mountaineers' Ten Essentia",
+    "w": 247,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#ten",
+   "#trip-plan",
+   "#layers",
+   "#water",
+   "#packing",
+   "#skills-h",
+   "first-aid.html#kit",
+   "#water",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "maps.html",
+   "knots.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "The Ten Essentials and trip planning",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "knots-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 9597,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#words",
+   "#square",
+   "#bowline",
+   "#half-hitches",
+   "#clove",
+   "#taut-line",
+   "#sheet-bend",
+   "#timber",
+   "#care",
+   "#skills-h",
+   "https://www.animatedknots.com/square-knot",
+   "https://www.animatedknots.com/bowline-knot",
+   "https://www.animatedknots.com/two-half-hitches-knot",
+   "https://www.animatedknots.com/clove-hitch-knot-rope-end",
+   "https://www.animatedknots.com/midshipmans-hitch-knot",
+   "https://www.animatedknots.com/sheet-bend-knot",
+   "https://www.animatedknots.com/timber-hitch-knot",
+   "essentials.html",
+   "camping.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Knots and rope",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "camping-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 7166,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#site",
+   "#lnt",
+   "#fire",
+   "#stoves",
+   "#food",
+   "#dishes",
+   "#leaving",
+   "#skills-h",
+   "https://lnt.org/why/7-principles/",
+   "knots.html",
+   "first-aid.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Camping and Leave No Trace",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "first-aid-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 8643,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#first-steps",
+   "#bleeding",
+   "#burns",
+   "#blisters",
+   "#sprains",
+   "#heat",
+   "#cold",
+   "#ticks",
+   "#kit",
+   "#skills-h",
+   "https://www.redcross.org/take-a-class/first-aid",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "camping.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "First aid in the field",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "about-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 3472,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "original/SurveyingAndMappingWithLensaticCompass.json",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://lnt.org/why/7-principles/",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.animatedknots.com/",
+   "https://github.com/SolutionsAsService/Guides",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "About this handbook",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "404-390-light": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 844,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Off the map.",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": [],
+  "focusWalk": [
+   {
+    "el": "A Skip to content",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A Compass & Trail",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 1Compass",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 2Maps",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 3Essentials",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   },
+   {
+    "el": "A 4Knots",
+    "outline": "solid 3px rgb(178, 68, 26)",
+    "inView": true
+   }
+  ]
+ },
+ "index-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 2392,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "#chapters",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "essentials.html#ten",
+   "essentials.html#trip-plan",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass& Trail",
+   "fontSize": "160px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "compass-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 10101,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "Surveying and Mapping with a L",
+    "w": 364,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#parts",
+   "#three-norths",
+   "#taking",
+   "#following",
+   "#declination",
+   "#distance",
+   "#resection",
+   "#mapping",
+   "#slopes",
+   "#accuracy",
+   "#kit",
+   "#skills-h",
+   "#accuracy",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "maps.html#orient",
+   "essentials.html#trip-plan",
+   "about.html#original",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "maps.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass navigation",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "maps-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 6416,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "Topographic Map Symbols",
+    "w": 196,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "TC 3-25.26",
+    "w": 75,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#what",
+   "#scale",
+   "#colours",
+   "#contours",
+   "#landforms",
+   "#grid",
+   "#orient",
+   "#route",
+   "#skills-h",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "compass.html",
+   "essentials.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Reading a topographic map",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "essentials-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 4894,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "the first-aid kit",
+    "w": 110,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "The Mountaineers' Ten Essentia",
+    "w": 247,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#ten",
+   "#trip-plan",
+   "#layers",
+   "#water",
+   "#packing",
+   "#skills-h",
+   "first-aid.html#kit",
+   "#water",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "maps.html",
+   "knots.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "The Ten Essentials and trip planning",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "knots-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 7071,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#words",
+   "#square",
+   "#bowline",
+   "#half-hitches",
+   "#clove",
+   "#taut-line",
+   "#sheet-bend",
+   "#timber",
+   "#care",
+   "#skills-h",
+   "https://www.animatedknots.com/square-knot",
+   "https://www.animatedknots.com/bowline-knot",
+   "https://www.animatedknots.com/two-half-hitches-knot",
+   "https://www.animatedknots.com/clove-hitch-knot-rope-end",
+   "https://www.animatedknots.com/midshipmans-hitch-knot",
+   "https://www.animatedknots.com/sheet-bend-knot",
+   "https://www.animatedknots.com/timber-hitch-knot",
+   "essentials.html",
+   "camping.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Knots and rope",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "camping-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 5137,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#site",
+   "#lnt",
+   "#fire",
+   "#stoves",
+   "#food",
+   "#dishes",
+   "#leaving",
+   "#skills-h",
+   "https://lnt.org/why/7-principles/",
+   "knots.html",
+   "first-aid.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Camping and Leave No Trace",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "first-aid-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 6225,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#first-steps",
+   "#bleeding",
+   "#burns",
+   "#blisters",
+   "#sprains",
+   "#heat",
+   "#cold",
+   "#ticks",
+   "#kit",
+   "#skills-h",
+   "https://www.redcross.org/take-a-class/first-aid",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "camping.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "First aid in the field",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "about-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 2505,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "original/SurveyingAndMappingWithLensaticCompass.json",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://lnt.org/why/7-principles/",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.animatedknots.com/",
+   "https://github.com/SolutionsAsService/Guides",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "About this handbook",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "404-1440-dark": {
+  "scrollW": 1440,
+  "innerW": 1440,
+  "height": 900,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Off the map.",
+   "fontSize": "89.6px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "index-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 3686,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "#chapters",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "essentials.html#ten",
+   "essentials.html#trip-plan",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass& Trail",
+   "fontSize": "71px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "compass-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 13954,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#parts",
+   "#three-norths",
+   "#taking",
+   "#following",
+   "#declination",
+   "#distance",
+   "#resection",
+   "#mapping",
+   "#slopes",
+   "#accuracy",
+   "#kit",
+   "#skills-h",
+   "#accuracy",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "maps.html#orient",
+   "essentials.html#trip-plan",
+   "about.html#original",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "maps.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Compass navigation",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "maps-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 8825,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "Topographic Map Symbols",
+    "w": 196,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "TC 3-25.26",
+    "w": 75,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#what",
+   "#scale",
+   "#colours",
+   "#contours",
+   "#landforms",
+   "#grid",
+   "#orient",
+   "#route",
+   "#skills-h",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "compass.html",
+   "essentials.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Reading a topographic map",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "essentials-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 6840,
+  "lowContrast": [],
+  "smallTargets": [
+   {
+    "tag": "A",
+    "text": "the first-aid kit",
+    "w": 110,
+    "h": 22
+   },
+   {
+    "tag": "A",
+    "text": "The Mountaineers' Ten Essentia",
+    "w": 247,
+    "h": 22
+   }
+  ],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#ten",
+   "#trip-plan",
+   "#layers",
+   "#water",
+   "#packing",
+   "#skills-h",
+   "first-aid.html#kit",
+   "#water",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "maps.html",
+   "knots.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "The Ten Essentials and trip planning",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "knots-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 9597,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#words",
+   "#square",
+   "#bowline",
+   "#half-hitches",
+   "#clove",
+   "#taut-line",
+   "#sheet-bend",
+   "#timber",
+   "#care",
+   "#skills-h",
+   "https://www.animatedknots.com/square-knot",
+   "https://www.animatedknots.com/bowline-knot",
+   "https://www.animatedknots.com/two-half-hitches-knot",
+   "https://www.animatedknots.com/clove-hitch-knot-rope-end",
+   "https://www.animatedknots.com/midshipmans-hitch-knot",
+   "https://www.animatedknots.com/sheet-bend-knot",
+   "https://www.animatedknots.com/timber-hitch-knot",
+   "essentials.html",
+   "camping.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Knots and rope",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "camping-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 7166,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#site",
+   "#lnt",
+   "#fire",
+   "#stoves",
+   "#food",
+   "#dishes",
+   "#leaving",
+   "#skills-h",
+   "https://lnt.org/why/7-principles/",
+   "knots.html",
+   "first-aid.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Camping and Leave No Trace",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "first-aid-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 8643,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "#skills-h",
+   "#first-steps",
+   "#bleeding",
+   "#burns",
+   "#blisters",
+   "#sprains",
+   "#heat",
+   "#cold",
+   "#ticks",
+   "#kit",
+   "#skills-h",
+   "https://www.redcross.org/take-a-class/first-aid",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "camping.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "First aid in the field",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "about-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 3472,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "compass.html",
+   "original/SurveyingAndMappingWithLensaticCompass.json",
+   "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf",
+   "https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml",
+   "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+   "https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf",
+   "https://www.mountaineers.org/blog/what-are-the-ten-essentials",
+   "https://lnt.org/why/7-principles/",
+   "https://www.cdc.gov/water-emergency/about/index.html",
+   "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "https://www.cdc.gov/heat-health/about/index.html",
+   "https://www.cdc.gov/winter-weather/about/index.html",
+   "https://www.animatedknots.com/",
+   "https://github.com/SolutionsAsService/Guides",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "About this handbook",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "IBM Plex Mono 500",
+   "Source Serif 4 400",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ },
+ "404-390-dark": {
+  "scrollW": 390,
+  "innerW": 390,
+  "height": 844,
+  "lowContrast": [],
+  "smallTargets": [],
+  "links": [
+   "#main",
+   "index.html",
+   "compass.html",
+   "maps.html",
+   "essentials.html",
+   "knots.html",
+   "camping.html",
+   "first-aid.html",
+   "about.html",
+   "index.html",
+   "about.html#sources",
+   "https://github.com/SolutionsAsService/Guides",
+   "https://demo.ultimatebusinessmachines.com/portfolio"
+  ],
+  "h1": {
+   "text": "Off the map.",
+   "fontSize": "45.1px",
+   "family": "\"Barlow Condensed\"",
+   "wdth": "normal"
+  },
+  "fontsLoaded": [
+   "Barlow Condensed 600",
+   "Barlow Condensed 700",
+   "Source Serif 4 400",
+   "Source Serif 4 600"
+  ],
+  "loadtest": []
+ }
+}

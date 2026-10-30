@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About · Compass &amp; Trail</title>
+<meta name="description" content="What Compass &amp; Trail is, the original lensatic compass guide it grew from, what we corrected, our sources and how to contribute.">
+<meta name="theme-color" content="#f2ede0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151713" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap">
+<link rel="stylesheet" href="css/handbook.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="wrap mast-in">
+    <a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" class="m-ring"/><path d="M16 5 20 16h-8Z" class="m-n"/><path d="M16 27 12 16h8Z" class="m-s"/></svg><span>Compass &amp; Trail</span></a>
+    <nav aria-label="Chapters"><ul class="chap-nav"><li><a href="compass.html" style="--c:#b2441a"><span class="n" aria-hidden="true">1</span>Compass</a></li><li><a href="maps.html" style="--c:#8a5a2b"><span class="n" aria-hidden="true">2</span>Maps</a></li><li><a href="essentials.html" style="--c:#1f6f6b"><span class="n" aria-hidden="true">3</span>Essentials</a></li><li><a href="knots.html" style="--c:#2b6ca3"><span class="n" aria-hidden="true">4</span>Knots</a></li><li><a href="camping.html" style="--c:#2f6b3a"><span class="n" aria-hidden="true">5</span>Camping</a></li><li><a href="first-aid.html" style="--c:#6b4a8c"><span class="n" aria-hidden="true">6</span>First aid</a></li><li><a class="about" href="about.html" aria-current="page">About</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<header class="page-head wrap">
+  <h1>About this handbook</h1>
+  <p class="lede">Compass &amp; Trail is a free, open handbook of outdoor skills for scouts, their leaders and anyone learning to find their way outdoors.</p>
+</header>
+<div class="wrap about"><div class="prose">
+<h2 id="what">What it is</h2>
+<p>It is an independent project, published as open source under the MIT licence. It is not affiliated with or endorsed by any scouting organisation, and it does not replace your organisation's own handbook, requirements or safety rules. Where they differ, follow your organisation and your leaders.</p>
+<p>Outdoor skills are learned by doing. Use this handbook to prepare and to refresh what you have learned, and practise every skill outside with a qualified leader.</p>
+
+<h2 id="original">The original guide</h2>
+<p>This repository began as a single structured guide: <em>Surveying and Mapping with a Lensatic Compass</em>, written as JSON so that it could be read by people and programs alike. It is the seed of <a href="compass.html">Chapter 1</a> and is kept, unchanged, in <code>docs/</code>. You can also <a href="original/SurveyingAndMappingWithLensaticCompass.json" download>download the original file</a>.</p>
+<details class="orig">
+  <summary>Show the original guide</summary>
+  <div class="ascii" tabindex="0" aria-label="The original guide as JSON, scrolls sideways"><pre>{
+  &quot;SurveyingAndMappingWithLensaticCompass&quot;: {
+    &quot;Introduction&quot;: {
+      &quot;Purpose&quot;: &quot;This guide provides step-by-step instructions for using a lensatic compass to conduct basic surveying and mapping. It covers the essential techniques required to determine bearings, measure distances, and create accurate maps in the field.&quot;,
+      &quot;Scope&quot;: &quot;The guide is intended for beginners and intermediate users, including students, hobbyists, and professionals in the fields of engineering, geology, and environmental science.&quot;
+    },
+    &quot;Equipment&quot;: {
+      &quot;LensaticCompass&quot;: {
+        &quot;Description&quot;: &quot;A precision instrument used to determine bearings and directions.&quot;,
+        &quot;Components&quot;: [
+          &quot;Compass Housing&quot;,
+          &quot;Floating Dial&quot;,
+          &quot;Sighting Wire&quot;,
+          &quot;Lens and Prism&quot;,
+          &quot;Thumb Loop and Rear Sight&quot;
+        ]
+      },
+      &quot;AdditionalTools&quot;: [
+        &quot;Topographic Map&quot;,
+        &quot;Notebook&quot;,
+        &quot;Pencil&quot;,
+        &quot;Ruler or Measuring Tape&quot;,
+        &quot;GPS Device (optional for cross-referencing)&quot;,
+        &quot;Clinometer (optional for measuring slopes)&quot;
+      ]
+    },
+    &quot;Basic Principles&quot;: {
+      &quot;CompassBearing&quot;: &quot;A bearing is the direction from one point to another, expressed in degrees. The bearing is measured clockwise from the north direction.&quot;,
+      &quot;Declination&quot;: &quot;The angle difference between true north (geographic north) and magnetic north. It must be accounted for accurate navigation.&quot;
+    },
+    &quot;StepByStepGuide&quot;: {
+      &quot;1_Preparation&quot;: {
+        &quot;a_SetupCompass&quot;: {
+          &quot;Instructions&quot;: &quot;Open the compass and ensure it is level. Check for magnetic interference.&quot;,
+          &quot;Note&quot;: &quot;Keep the compass away from metallic objects and electronic devices.&quot;
+        },
+        &quot;b_IdentifyDeclination&quot;: {
+          &quot;Instructions&quot;: &quot;Determine the local magnetic declination using a map or online resources and adjust your compass readings accordingly.&quot;
+        }
+      },
+      &quot;2_TakingBearings&quot;: {
+        &quot;a_SelectTarget&quot;: {
+          &quot;Instructions&quot;: &quot;Choose a visible landmark or feature to use as your target.&quot;,
+          &quot;Example&quot;: &quot;A tree, building, or hilltop.&quot;
+        },
+        &quot;b_AlignCompass&quot;: {
+          &quot;Instructions&quot;: &quot;Hold the compass level, sight the target through the lens and align the sighting wire with the target.&quot;
+        },
+        &quot;c_ReadBearing&quot;: {
+          &quot;Instructions&quot;: &quot;Rotate the dial until the luminous line aligns with the magnetic needle. Read the bearing at the index line.&quot;
+        },
+        &quot;d_RecordBearing&quot;: {
+          &quot;Instructions&quot;: &quot;Write down the bearing in your notebook, including any adjustments for declination.&quot;
+        }
+      },
+      &quot;3_MeasuringDistances&quot;: {
+        &quot;a_DirectMeasurement&quot;: {
+          &quot;Instructions&quot;: &quot;Use a ruler or measuring tape to measure the distance between two points on the ground.&quot;,
+          &quot;Example&quot;: &quot;For short distances or detailed surveys.&quot;
+        },
+        &quot;b_Pacing&quot;: {
+          &quot;Instructions&quot;: &quot;Count your steps to estimate distances over longer stretches. Calibrate your step length beforehand.&quot;
+        }
+      },
+      &quot;4_Triangulation&quot;: {
+        &quot;a_SelectLandmarks&quot;: {
+          &quot;Instructions&quot;: &quot;Choose at least two prominent landmarks visible from your position.&quot;,
+          &quot;Example&quot;: &quot;Hilltops, towers, or distinctive trees.&quot;
+        },
+        &quot;b_TakeBearings&quot;: {
+          &quot;Instructions&quot;: &quot;Take bearings to each landmark and record them.&quot;
+        },
+        &quot;c_PlotBearings&quot;: {
+          &quot;Instructions&quot;: &quot;On your map, draw lines corresponding to the recorded bearings from the landmarks. The intersection point is your location.&quot;
+        }
+      },
+      &quot;5_CreatingMaps&quot;: {
+        &quot;a_DrawBaseMap&quot;: {
+          &quot;Instructions&quot;: &quot;Start with a blank sheet of paper. Draw a north arrow and scale bar.&quot;
+        },
+        &quot;b_AddFeatures&quot;: {
+          &quot;Instructions&quot;: &quot;Plot landmarks, paths, and other features using the bearings and distances recorded. Use symbols and labels for clarity.&quot;
+        },
+        &quot;c_FinalizeMap&quot;: {
+          &quot;Instructions&quot;: &quot;Review and clean up your map. Ensure all features are accurately represented and labeled.&quot;
+        }
+      }
+    },
+    &quot;AdvancedTips&quot;: {
+      &quot;1_UsingClinometer&quot;: {
+        &quot;Instructions&quot;: &quot;For measuring slopes and heights. Hold the clinometer against the compass and sight the top of the object.&quot;
+      },
+      &quot;2_ImprovingAccuracy&quot;: {
+        &quot;Instructions&quot;: &quot;Take multiple bearings and average them. Cross-check with GPS coordinates if available.&quot;
+      }
+    },
+    &quot;SafetyConsiderations&quot;: {
+      &quot;1_AvoidingInterference&quot;: {
+        &quot;Instructions&quot;: &quot;Stay away from large metallic objects and power lines that can distort compass readings.&quot;
+      },
+      &quot;2_NavigationSafety&quot;: {
+        &quot;Instructions&quot;: &quot;Always carry a map and have a backup navigation method. Inform someone of your survey plan and expected return time.&quot;
+      }
+    },
+    &quot;Conclusion&quot;: {
+      &quot;Summary&quot;: &quot;Surveying and mapping with a lensatic compass is a valuable skill for outdoor navigation and exploration. By following the steps outlined in this guide, you can create accurate maps and navigate with confidence.&quot;
+    }
+  }
+}
+</pre></div>
+</details>
+<p>When we turned it into a chapter, we corrected and expanded it:</p>
+<ul class="rules">
+  <li><strong>Reading a bearing.</strong> The original said to turn the dial to meet the needle. On a lensatic compass the dial turns by itself, and you read the bearing under the fixed index line. The bezel ring is for setting a bearing to follow.</li>
+  <li><strong>Triangulation.</strong> To find your own position, you draw lines from the landmarks along their <em>back bearings</em>, not the bearings you took. The chapter explains back bearings and the triangle of error.</li>
+  <li><strong>Declination.</strong> The rule for converting between magnetic and true bearings is now spelled out, with a calculator.</li>
+  <li><strong>Slopes.</strong> A lensatic compass has no clinometer, so the chapter now uses a separate one, with a worked height example.</li>
+  <li><strong>Interference.</strong> We added safe distances from metal from the US Army manual, how to calibrate a pace count, and a worked field notebook for mapping an area.</li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+<ul class="sources">
+  <li>US Army, <a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf" rel="noopener">TC 3-25.26, Map Reading and Land Navigation</a>: lensatic compass use, interference distances and resection.</li>
+  <li>NOAA, <a href="https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml" rel="noopener">Magnetic Field Calculators</a>: current declination for your location.</li>
+  <li>US Geological Survey, <a href="https://www.usgs.gov/programs/national-geospatial-program/topographic-maps" rel="noopener">Topographic Maps</a> and <a href="https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf" rel="noopener">Topographic Map Symbols</a>.</li>
+  <li>The Mountaineers, <a href="https://www.mountaineers.org/blog/what-are-the-ten-essentials" rel="noopener">What Are the Ten Essentials?</a></li>
+  <li>Leave No Trace Center for Outdoor Ethics, <a href="https://lnt.org/why/7-principles/" rel="noopener">The 7 Principles</a>.</li>
+  <li>CDC: <a href="https://www.cdc.gov/water-emergency/about/index.html" rel="noopener">making water safe</a>, <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" rel="noopener">removing a tick</a>, <a href="https://www.cdc.gov/heat-health/about/index.html" rel="noopener">heat and health</a> and <a href="https://www.cdc.gov/winter-weather/about/index.html" rel="noopener">winter weather</a>.</li>
+  <li>Animated Knots by Grog, <a href="https://www.animatedknots.com/" rel="noopener">animatedknots.com</a>: step-by-step animations for the knots chapter.</li>
+</ul>
+
+<h2 id="contributing">Contributing</h2>
+<p>Every chapter is a plain HTML file in <code>_src/pages/</code>, and the chapter list and skills checks live in <code>_src/chapters.json</code>. Edit them, run <code>python _src/build.py</code>, and open a pull request on <a href="https://github.com/SolutionsAsService/Guides" rel="noopener">GitHub</a>. Corrections with a source are especially welcome.</p>
+</div></div>
+</main>
+<footer class="foot"><div class="wrap foot-in">
+  <p><strong>Compass &amp; Trail</strong> is an independent, open-source handbook. It is not affiliated with or endorsed by any scouting organisation. Learn hands-on skills from a qualified leader, and take a certified first-aid course.</p>
+  <p><a href="about.html#sources">Sources</a> · <a href="https://github.com/SolutionsAsService/Guides" rel="noopener">Source on GitHub</a> · MIT licensed</p>
+  <p><a href="https://demo.ultimatebusinessmachines.com/portfolio">Part of the Ultimate Business Machines portfolio</a></p>
+</div></footer>
+<script src="js/handbook.js" defer></script>
+</body>
+</html>

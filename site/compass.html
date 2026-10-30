@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compass navigation · Compass &amp; Trail</title>
+<meta name="description" content="How to use a lensatic compass: its parts, taking and following a bearing, declination, pacing, finding your position by resection and mapping an area.">
+<meta name="theme-color" content="#f2ede0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151713" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap">
+<link rel="stylesheet" href="css/handbook.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="wrap mast-in">
+    <a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" class="m-ring"/><path d="M16 5 20 16h-8Z" class="m-n"/><path d="M16 27 12 16h8Z" class="m-s"/></svg><span>Compass &amp; Trail</span></a>
+    <nav aria-label="Chapters"><ul class="chap-nav"><li><a href="compass.html" style="--c:#b2441a" aria-current="page"><span class="n" aria-hidden="true">1</span>Compass</a></li><li><a href="maps.html" style="--c:#8a5a2b"><span class="n" aria-hidden="true">2</span>Maps</a></li><li><a href="essentials.html" style="--c:#1f6f6b"><span class="n" aria-hidden="true">3</span>Essentials</a></li><li><a href="knots.html" style="--c:#2b6ca3"><span class="n" aria-hidden="true">4</span>Knots</a></li><li><a href="camping.html" style="--c:#2f6b3a"><span class="n" aria-hidden="true">5</span>Camping</a></li><li><a href="first-aid.html" style="--c:#6b4a8c"><span class="n" aria-hidden="true">6</span>First aid</a></li><li><a class="about" href="about.html">About</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<header class="collar" style="--c:#b2441a">
+  <svg class="topo" viewBox="0 0 1400 420" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="ct" d="M1218.8 230.0 L1219.3 232.5 L1218.5 234.9 L1216.6 237.1 L1213.8 238.9 L1210.9 240.4 L1208.4 241.8 L1206.5 243.4 L1205.0 245.1 L1203.4 246.9 L1201.5 248.4 L1199.1 249.6 L1196.3 250.4 L1193.5 250.9 L1190.8 251.4 L1188.2 252.0 L1185.6 252.7 L1182.8 253.2 L1180.0 253.4 L1177.2 253.1 L1174.5 252.6 L1171.7 252.2 L1168.8 252.2 L1165.5 252.4 L1161.8 252.8 L1157.9 252.7 L1154.5 251.9 L1151.8 250.3 L1150.1 248.1 L1149.2 245.5 L1148.7 243.0 L1148.4 240.6 L1148.2 238.3 L1148.3 236.1 L1148.8 234.0 L1149.7 231.9 L1150.8 230.0 L1151.5 228.2 L1151.6 226.4 L1150.9 224.4 L1149.9 222.1 L1149.3 219.7 L1149.5 217.3 L1150.8 215.3 L1152.9 213.6 L1155.3 212.2 L1157.8 210.9 L1160.1 209.5 L1162.3 208.0 L1164.8 206.5 L1167.5 205.4 L1170.6 204.7 L1173.8 204.5 L1176.9 204.5 L1180.0 204.4 L1183.1 204.4 L1186.3 204.4 L1189.3 204.9 L1192.1 206.2 L1194.2 208.1 L1195.8 210.4 L1196.9 212.6 L1198.2 214.4 L1199.9 215.7 L1202.2 216.6 L1204.9 217.5 L1207.6 218.5 L1210.0 219.9 L1212.1 221.6 L1214.0 223.4 L1215.7 225.5 L1217.5 227.6 L1218.8 230.0Z"/><path class="ct" d="M1245.8 230.0 L1246.4 234.2 L1245.0 238.3 L1241.7 241.9 L1237.2 245.0 L1232.4 247.6 L1228.4 250.1 L1225.4 252.9 L1223.0 256.0 L1220.4 259.1 L1217.1 261.9 L1212.9 263.9 L1208.1 265.0 L1203.1 265.7 L1198.4 266.3 L1193.8 267.2 L1189.4 268.3 L1184.8 269.1 L1180.0 269.4 L1175.2 269.1 L1170.6 268.5 L1165.9 268.0 L1160.7 268.1 L1154.9 268.7 L1148.5 269.3 L1142.0 269.1 L1136.1 267.6 L1131.7 264.8 L1129.0 260.8 L1127.7 256.4 L1127.1 252.0 L1126.8 247.9 L1126.4 244.0 L1126.4 240.3 L1127.0 236.7 L1128.3 233.3 L1129.8 230.0 L1130.9 226.9 L1130.8 223.8 L1129.7 220.3 L1128.2 216.4 L1127.3 212.3 L1128.0 208.4 L1130.4 205.0 L1134.1 202.3 L1138.4 200.1 L1142.6 197.9 L1146.4 195.4 L1150.1 192.7 L1154.1 190.0 L1158.7 187.9 L1163.8 186.5 L1169.2 186.0 L1174.6 185.9 L1180.0 185.9 L1185.4 185.9 L1190.7 186.2 L1195.9 187.3 L1200.4 189.6 L1204.0 193.0 L1206.5 196.9 L1208.5 200.7 L1210.7 203.7 L1213.7 205.7 L1217.9 207.1 L1222.7 208.5 L1227.6 210.2 L1231.9 212.6 L1235.4 215.5 L1238.5 218.7 L1241.3 222.2 L1243.9 226.0 L1245.8 230.0Z"/><path class="ct" d="M1272.5 230.0 L1273.0 235.9 L1270.9 241.5 L1266.4 246.7 L1260.2 251.0 L1253.9 254.8 L1248.6 258.5 L1244.6 262.6 L1241.4 267.1 L1237.9 271.7 L1233.1 275.6 L1227.0 278.3 L1219.9 279.8 L1212.7 280.5 L1205.8 281.0 L1199.4 282.0 L1193.1 283.4 L1186.6 284.6 L1180.0 285.2 L1173.3 285.0 L1166.7 284.4 L1159.9 284.0 L1152.5 284.4 L1144.2 285.3 L1135.0 286.1 L1125.7 285.8 L1117.6 283.5 L1111.6 279.2 L1108.1 273.4 L1106.6 267.0 L1106.1 260.7 L1105.7 255.0 L1105.1 249.6 L1104.9 244.5 L1105.3 239.5 L1106.7 234.6 L1108.5 230.0 L1109.6 225.6 L1109.4 221.0 L1107.9 216.1 L1106.1 210.6 L1105.2 204.9 L1106.5 199.5 L1110.3 194.9 L1115.8 191.2 L1121.9 188.2 L1127.7 185.1 L1132.9 181.6 L1137.9 177.5 L1143.4 173.4 L1149.7 170.1 L1156.9 168.0 L1164.6 167.1 L1172.3 167.0 L1180.0 167.1 L1187.6 167.4 L1195.2 168.1 L1202.3 170.0 L1208.6 173.4 L1213.5 178.3 L1217.0 183.9 L1219.8 189.1 L1223.0 193.1 L1227.6 195.7 L1233.8 197.5 L1241.0 199.3 L1248.1 201.7 L1254.3 205.1 L1259.2 209.2 L1263.3 213.9 L1266.8 219.0 L1270.1 224.3 L1272.5 230.0Z"/><path class="ct" d="M1298.5 230.0 L1298.9 237.5 L1296.3 244.8 L1290.6 251.3 L1283.0 257.0 L1275.4 262.0 L1269.0 267.0 L1264.3 272.5 L1260.4 278.6 L1255.8 284.6 L1249.4 289.6 L1241.2 292.9 L1231.7 294.5 L1222.1 295.0 L1213.1 295.4 L1204.7 296.4 L1196.7 298.0 L1188.5 299.7 L1180.0 300.7 L1171.4 300.8 L1162.7 300.5 L1153.8 300.4 L1144.1 301.1 L1133.1 302.4 L1121.2 303.4 L1109.3 302.7 L1099.1 299.5 L1091.7 293.6 L1087.6 285.8 L1086.0 277.4 L1085.6 269.3 L1085.1 261.9 L1084.2 255.1 L1083.4 248.6 L1083.5 242.3 L1084.7 236.0 L1086.5 230.0 L1087.7 224.2 L1087.5 218.3 L1085.8 211.8 L1083.8 204.8 L1083.2 197.5 L1085.4 190.7 L1090.7 185.0 L1098.0 180.4 L1105.9 176.6 L1113.2 172.6 L1119.6 167.9 L1125.7 162.3 L1132.5 156.7 L1140.6 152.0 L1149.9 149.0 L1159.9 147.7 L1170.0 147.6 L1180.0 148.1 L1189.9 148.8 L1199.6 150.1 L1208.7 152.9 L1216.6 157.6 L1222.7 164.1 L1227.2 171.2 L1230.9 177.7 L1235.3 182.5 L1241.6 185.6 L1250.0 187.7 L1259.7 189.8 L1269.2 192.9 L1277.2 197.4 L1283.4 202.9 L1288.2 209.1 L1292.3 215.7 L1295.9 222.7 L1298.5 230.0Z"/><path class="ct ix" d="M1323.9 230.0 L1324.2 239.1 L1321.1 247.9 L1314.5 256.0 L1305.9 263.0 L1297.1 269.3 L1289.9 275.7 L1284.5 282.7 L1279.8 290.3 L1274.0 297.7 L1265.9 303.7 L1255.4 307.5 L1243.4 309.1 L1231.3 309.2 L1220.1 309.4 L1209.9 310.4 L1200.2 312.3 L1190.3 314.5 L1180.0 316.2 L1169.5 316.8 L1158.7 316.8 L1147.6 317.1 L1135.4 318.2 L1121.8 319.8 L1107.2 320.8 L1092.8 319.7 L1080.6 315.3 L1072.1 307.7 L1067.5 297.9 L1066.0 287.5 L1065.6 277.6 L1064.9 268.6 L1063.4 260.5 L1061.9 252.8 L1061.3 245.1 L1062.2 237.4 L1063.9 230.0 L1065.2 222.8 L1065.0 215.4 L1063.4 207.5 L1061.5 199.0 L1061.5 190.2 L1064.8 182.1 L1071.5 175.3 L1080.6 170.0 L1090.2 165.3 L1098.8 160.3 L1106.3 154.2 L1113.4 146.9 L1121.4 139.6 L1131.2 133.5 L1142.6 129.5 L1155.0 128.0 L1167.6 128.1 L1180.0 129.0 L1192.1 130.3 L1203.9 132.5 L1214.9 136.3 L1224.3 142.3 L1231.7 150.2 L1237.2 158.7 L1241.9 166.3 L1247.7 171.9 L1255.9 175.4 L1266.7 177.6 L1279.0 180.1 L1290.8 184.0 L1300.5 189.5 L1307.8 196.5 L1313.1 204.3 L1317.4 212.6 L1321.2 221.1 L1323.9 230.0Z"/><path class="ct" d="M1348.6 230.0 L1349.0 240.6 L1345.6 251.0 L1338.4 260.6 L1328.9 269.0 L1319.3 276.8 L1311.4 284.6 L1305.3 293.2 L1299.7 302.3 L1292.6 311.1 L1282.5 318.0 L1269.5 322.1 L1254.9 323.4 L1240.3 323.1 L1226.9 322.8 L1214.9 323.9 L1203.6 326.3 L1192.1 329.2 L1180.0 331.7 L1167.5 333.0 L1154.6 333.6 L1141.2 334.4 L1126.5 335.8 L1110.3 337.6 L1093.0 338.5 L1076.3 336.7 L1062.3 331.0 L1052.8 321.6 L1048.0 309.8 L1046.5 297.3 L1046.1 285.7 L1045.0 275.3 L1042.7 266.0 L1040.2 257.0 L1038.7 247.9 L1039.0 238.9 L1040.6 230.0 L1042.1 221.3 L1042.2 212.5 L1040.9 203.2 L1039.5 193.2 L1040.2 183.1 L1044.7 173.7 L1053.0 166.0 L1063.8 159.8 L1074.8 154.3 L1084.6 148.1 L1092.9 140.4 L1100.9 131.3 L1110.1 122.1 L1121.6 114.5 L1135.2 109.6 L1150.1 107.9 L1165.2 108.3 L1180.0 109.9 L1194.3 112.1 L1208.1 115.2 L1220.9 120.2 L1231.9 127.4 L1240.5 136.6 L1247.0 146.4 L1252.9 155.0 L1260.3 161.1 L1270.6 164.8 L1283.9 167.2 L1298.8 170.1 L1312.8 174.8 L1324.2 181.6 L1332.2 190.1 L1337.7 199.6 L1342.0 209.4 L1345.8 219.6 L1348.6 230.0Z"/><path class="ct" d="M1372.7 230.0 L1373.2 242.2 L1369.8 254.1 L1362.3 265.2 L1352.3 275.2 L1342.1 284.4 L1333.5 293.8 L1326.6 303.9 L1320.0 314.6 L1311.3 324.6 L1299.1 332.2 L1283.5 336.4 L1266.1 337.3 L1248.9 336.5 L1233.5 335.8 L1219.8 336.9 L1206.9 340.0 L1193.8 343.9 L1180.0 347.4 L1165.5 349.7 L1150.4 350.9 L1134.6 352.1 L1117.4 353.8 L1098.6 355.7 L1078.8 356.2 L1059.9 353.5 L1044.3 346.4 L1034.0 335.1 L1028.9 321.3 L1027.5 306.9 L1027.0 293.6 L1025.3 281.9 L1021.9 271.4 L1018.0 261.3 L1015.3 250.9 L1015.1 240.4 L1016.7 230.0 L1018.6 219.8 L1019.2 209.6 L1018.5 198.8 L1017.8 187.5 L1019.4 176.1 L1025.2 165.6 L1035.0 156.9 L1047.3 149.8 L1059.6 143.3 L1070.3 135.9 L1079.3 126.4 L1088.1 115.3 L1098.5 104.2 L1111.7 95.0 L1127.7 89.4 L1145.1 87.5 L1162.8 88.6 L1180.0 91.1 L1196.5 94.3 L1212.2 98.5 L1226.7 104.5 L1239.2 112.9 L1249.1 123.4 L1256.8 134.2 L1264.1 143.5 L1273.2 150.1 L1285.7 153.9 L1301.7 156.5 L1319.1 159.9 L1335.3 165.4 L1347.9 173.6 L1356.4 183.8 L1361.8 194.9 L1365.9 206.4 L1369.7 218.0 L1372.7 230.0Z"/><path class="ct" d="M1443.2 40.0 L1440.3 43.8 L1436.3 47.1 L1432.2 50.1 L1428.6 52.7 L1425.7 55.3 L1423.0 57.9 L1420.2 60.3 L1417.0 62.4 L1413.7 64.3 L1410.5 66.2 L1407.8 68.5 L1405.2 71.4 L1402.3 74.5 L1398.9 77.3 L1394.6 79.2 L1389.8 80.0 L1384.8 79.7 L1380.0 78.9 L1375.3 78.4 L1370.6 78.4 L1365.6 78.8 L1360.3 79.0 L1355.0 78.5 L1350.2 77.1 L1346.1 74.8 L1342.6 72.0 L1339.6 69.1 L1336.7 66.2 L1334.2 63.1 L1332.4 59.8 L1331.9 56.1 L1332.8 52.4 L1334.4 48.8 L1335.9 45.6 L1336.3 42.8 L1335.2 40.0 L1332.7 37.0 L1330.0 33.6 L1327.9 29.9 L1327.1 26.1 L1327.8 22.5 L1329.5 19.0 L1331.7 15.7 L1334.3 12.4 L1337.3 9.3 L1341.1 6.6 L1345.8 4.8 L1351.2 4.0 L1356.7 4.0 L1361.9 4.2 L1366.6 4.1 L1371.0 3.4 L1375.4 2.2 L1380.0 1.2 L1384.7 0.9 L1389.3 1.8 L1393.5 3.7 L1397.2 5.9 L1400.7 8.1 L1404.2 9.8 L1408.1 11.1 L1412.1 12.5 L1415.9 14.1 L1419.4 16.2 L1422.6 18.5 L1426.0 20.9 L1429.8 23.3 L1434.2 25.8 L1438.7 28.7 L1442.3 32.1 L1443.9 36.0 L1443.2 40.0Z"/><path class="ct" d="M1470.8 40.0 L1466.4 45.4 L1460.4 50.2 L1454.4 54.4 L1449.4 58.2 L1445.5 62.0 L1442.0 65.8 L1438.3 69.4 L1434.0 72.6 L1429.3 75.5 L1424.7 78.4 L1420.6 81.7 L1416.6 85.7 L1412.3 89.9 L1407.2 93.7 L1400.9 96.2 L1394.0 97.1 L1386.9 96.6 L1380.0 95.6 L1373.3 95.0 L1366.5 95.3 L1359.1 96.1 L1351.3 96.7 L1343.6 96.2 L1336.5 94.2 L1330.5 90.9 L1325.6 86.7 L1321.4 82.2 L1317.5 77.8 L1314.2 73.2 L1312.0 68.3 L1311.4 63.0 L1312.6 57.7 L1314.9 52.6 L1316.7 48.0 L1316.9 44.0 L1314.8 40.0 L1311.0 35.7 L1306.8 30.7 L1303.7 25.3 L1302.8 19.8 L1304.1 14.5 L1306.9 9.6 L1310.5 5.0 L1314.5 0.4 L1319.0 -3.9 L1324.5 -7.7 L1331.1 -10.3 L1338.6 -11.6 L1346.4 -11.9 L1353.8 -11.8 L1360.5 -12.3 L1366.9 -13.5 L1373.3 -15.3 L1380.0 -16.7 L1386.9 -16.9 L1393.5 -15.3 L1399.5 -12.4 L1404.7 -8.8 L1409.5 -5.6 L1414.5 -3.1 L1420.0 -1.2 L1425.9 0.6 L1431.7 2.8 L1437.0 5.6 L1442.0 8.8 L1447.1 12.1 L1452.8 15.6 L1459.2 19.2 L1465.6 23.5 L1470.4 28.5 L1472.3 34.2 L1470.8 40.0Z"/><path class="ct" d="M1498.0 40.0 L1491.8 47.0 L1483.9 53.2 L1476.2 58.6 L1470.0 63.6 L1465.3 68.6 L1461.3 73.8 L1456.8 78.7 L1451.4 83.2 L1445.4 87.1 L1439.3 90.9 L1433.6 95.1 L1428.2 100.1 L1422.3 105.3 L1415.3 109.8 L1407.1 112.8 L1398.1 113.8 L1388.9 113.1 L1380.0 112.0 L1371.3 111.5 L1362.3 112.3 L1352.6 113.7 L1342.2 114.8 L1331.9 114.3 L1322.5 111.7 L1314.7 107.1 L1308.4 101.4 L1303.2 95.3 L1298.6 89.2 L1294.7 83.0 L1292.1 76.6 L1291.5 69.7 L1293.0 62.8 L1295.6 56.3 L1297.5 50.5 L1297.2 45.2 L1294.0 40.0 L1288.6 34.2 L1283.0 27.7 L1279.1 20.5 L1278.3 13.3 L1280.4 6.6 L1284.6 0.3 L1289.7 -5.5 L1295.2 -11.3 L1301.1 -16.8 L1308.2 -21.6 L1316.6 -25.2 L1326.2 -27.1 L1336.1 -27.9 L1345.5 -28.2 L1354.3 -29.1 L1362.6 -30.9 L1371.1 -33.2 L1380.0 -34.9 L1389.1 -34.8 L1397.7 -32.4 L1405.4 -28.1 L1412.0 -23.2 L1418.1 -18.8 L1424.5 -15.5 L1431.7 -13.2 L1439.6 -11.1 L1447.4 -8.6 L1454.8 -5.2 L1461.8 -1.2 L1468.7 3.1 L1476.4 7.6 L1484.7 12.6 L1492.6 18.3 L1498.4 25.0 L1500.5 32.4 L1498.0 40.0Z"/><path class="ct" d="M1524.6 40.0 L1516.6 48.6 L1506.8 56.1 L1497.6 62.7 L1490.4 68.9 L1485.2 75.3 L1480.9 81.9 L1475.8 88.3 L1469.4 94.0 L1461.9 98.9 L1454.1 103.6 L1446.8 108.6 L1439.6 114.4 L1432.0 120.4 L1423.3 125.6 L1413.1 129.0 L1402.0 130.0 L1390.8 129.3 L1380.0 128.2 L1369.3 128.1 L1358.1 129.5 L1345.9 131.7 L1332.8 133.3 L1319.9 132.8 L1308.2 129.5 L1298.7 123.6 L1291.2 116.2 L1285.2 108.2 L1280.0 100.4 L1275.6 92.6 L1272.7 84.6 L1272.1 76.2 L1273.7 67.9 L1276.4 60.0 L1278.2 52.9 L1277.1 46.5 L1272.6 40.0 L1265.6 32.8 L1258.6 24.6 L1254.1 15.7 L1253.6 6.9 L1256.9 -1.3 L1262.6 -8.8 L1269.4 -15.8 L1276.3 -22.6 L1283.7 -29.3 L1292.2 -35.4 L1302.2 -40.0 L1313.6 -42.8 L1325.5 -44.1 L1337.1 -44.9 L1347.9 -46.3 L1358.3 -48.7 L1368.9 -51.5 L1380.0 -53.2 L1391.3 -52.7 L1401.9 -49.2 L1411.1 -43.6 L1419.0 -37.2 L1426.4 -31.6 L1434.2 -27.6 L1443.2 -25.0 L1453.2 -22.8 L1463.4 -20.0 L1473.1 -16.2 L1482.1 -11.5 L1491.0 -6.1 L1500.5 -0.4 L1510.5 5.8 L1519.8 13.0 L1526.3 21.4 L1528.1 30.7 L1524.6 40.0Z"/><path class="ct ix" d="M1550.4 40.0 L1540.8 50.1 L1529.2 58.9 L1518.7 66.8 L1510.9 74.3 L1505.5 82.1 L1500.9 90.3 L1495.3 98.1 L1487.8 105.1 L1478.7 111.1 L1469.2 116.5 L1459.9 122.2 L1451.0 128.5 L1441.6 135.1 L1431.0 140.9 L1418.9 144.6 L1405.9 145.8 L1392.8 145.2 L1380.0 144.3 L1367.3 144.8 L1353.8 147.0 L1339.0 150.1 L1323.2 152.3 L1307.6 151.7 L1293.8 147.5 L1282.6 140.1 L1274.1 130.8 L1267.5 121.0 L1261.9 111.3 L1257.2 101.9 L1253.9 92.4 L1253.0 82.6 L1254.5 72.9 L1257.1 63.7 L1258.4 55.4 L1256.4 47.8 L1250.4 40.0 L1241.9 31.3 L1233.8 21.4 L1228.9 10.9 L1229.0 0.4 L1233.6 -9.2 L1241.1 -17.7 L1249.6 -25.8 L1258.0 -33.7 L1266.6 -41.6 L1276.3 -49.0 L1287.8 -54.8 L1301.0 -58.6 L1314.8 -60.6 L1328.4 -62.1 L1341.3 -64.0 L1353.8 -66.9 L1366.6 -70.0 L1380.0 -71.7 L1393.4 -70.4 L1405.9 -65.7 L1416.7 -58.5 L1425.8 -50.7 L1434.4 -44.0 L1443.8 -39.5 L1454.7 -36.8 L1467.0 -34.6 L1479.7 -31.8 L1491.7 -27.5 L1502.9 -22.0 L1513.7 -15.6 L1524.9 -8.7 L1536.4 -1.0 L1546.8 7.8 L1553.8 17.9 L1555.2 29.0 L1550.4 40.0Z"/><path class="ct" d="M1575.6 40.0 L1564.4 51.6 L1551.3 61.7 L1539.8 70.8 L1531.6 79.7 L1526.2 89.1 L1521.6 98.8 L1515.4 108.3 L1506.7 116.6 L1495.9 123.5 L1484.3 129.5 L1472.9 135.6 L1462.1 142.3 L1450.9 149.5 L1438.5 155.7 L1424.6 159.8 L1409.7 161.3 L1394.7 161.0 L1380.0 160.6 L1365.2 161.8 L1349.4 165.0 L1332.0 169.0 L1313.4 171.7 L1295.2 171.0 L1279.2 165.7 L1266.6 156.6 L1257.3 145.3 L1250.3 133.4 L1244.4 121.9 L1239.3 110.9 L1235.6 100.0 L1234.3 88.9 L1235.4 77.9 L1237.4 67.5 L1238.1 58.0 L1235.0 49.1 L1227.6 40.0 L1217.7 29.8 L1208.6 18.2 L1203.6 6.0 L1204.6 -6.0 L1210.8 -16.8 L1220.2 -26.4 L1230.4 -35.4 L1240.2 -44.5 L1249.8 -53.7 L1260.6 -62.5 L1273.3 -69.7 L1288.1 -74.7 L1303.8 -77.6 L1319.5 -79.7 L1334.5 -82.2 L1349.3 -85.4 L1364.4 -88.6 L1380.0 -90.0 L1395.5 -87.8 L1409.8 -81.8 L1422.0 -73.0 L1432.4 -63.7 L1442.2 -56.1 L1453.2 -51.2 L1466.2 -48.6 L1481.0 -46.7 L1496.4 -43.8 L1511.0 -39.1 L1524.3 -32.8 L1537.0 -25.3 L1549.7 -17.0 L1562.4 -7.8 L1573.6 2.7 L1580.8 14.5 L1581.6 27.3 L1575.6 40.0Z"/><path class="ct" d="M1600.1 40.0 L1587.5 53.1 L1573.2 64.5 L1561.0 74.9 L1552.7 85.3 L1547.5 96.2 L1542.9 107.7 L1536.1 118.7 L1526.1 128.2 L1513.2 135.9 L1499.3 142.4 L1485.7 148.7 L1472.8 155.8 L1459.9 163.3 L1445.7 170.0 L1430.1 174.7 L1413.5 176.6 L1396.6 176.8 L1380.0 177.1 L1363.1 179.2 L1344.9 183.5 L1324.7 188.5 L1303.4 191.6 L1282.6 190.4 L1264.6 184.0 L1250.7 173.0 L1240.8 159.4 L1233.5 145.5 L1227.4 132.2 L1221.9 119.7 L1217.6 107.5 L1215.6 95.2 L1216.0 83.0 L1217.3 71.4 L1217.1 60.7 L1212.8 50.5 L1204.1 40.0 L1193.0 28.2 L1183.2 15.0 L1178.5 1.1 L1180.6 -12.3 L1188.6 -24.3 L1199.9 -34.9 L1211.8 -44.8 L1222.7 -55.0 L1233.2 -65.7 L1244.8 -76.0 L1258.6 -84.8 L1274.8 -91.1 L1292.5 -95.1 L1310.3 -97.9 L1327.6 -100.7 L1344.7 -104.2 L1362.1 -107.2 L1380.0 -108.0 L1397.6 -104.8 L1413.6 -97.3 L1427.2 -86.9 L1438.8 -76.3 L1449.9 -68.0 L1462.6 -63.0 L1477.8 -60.6 L1495.3 -59.0 L1513.5 -56.2 L1530.8 -51.1 L1546.3 -43.8 L1560.6 -35.1 L1574.5 -25.3 L1588.1 -14.5 L1599.9 -2.4 L1607.0 11.2 L1607.3 25.7 L1600.1 40.0Z"/></svg>
+  <div class="wrap collar-in">
+    <p class="chap-no"><span class="badge" aria-hidden="true">1</span>Chapter 1 of 6</p>
+    <h1>Compass navigation</h1>
+    <p class="lede">Take and follow a bearing with a lensatic compass, find where you are, and map an area by pacing.</p>
+    <p class="meta">About 10 minutes to read · 7 skills · <a href="#skills-h" class="progress-text" data-progress="compass">0 of 7 ticked</a></p>
+  </div>
+</header>
+<div class="wrap chapter" style="--c:#b2441a">
+  <nav class="toc" aria-label="On this page"><p class="toc-h">On this page</p><ol><li><a href="#parts">The lensatic compass</a></li><li><a href="#three-norths">Bearings and the three norths</a></li><li><a href="#taking">Taking a bearing</a></li><li><a href="#following">Following a bearing</a></li><li><a href="#declination">Correcting for declination</a></li><li><a href="#distance">Measuring distance by pacing</a></li><li><a href="#resection">Finding where you are</a></li><li><a href="#mapping">Mapping an area</a></li><li><a href="#slopes">Slopes and heights</a></li><li><a href="#accuracy">Accuracy and safety</a></li><li><a href="#kit">What to bring</a></li><li><a href="#skills-h">Skills check</a></li></ol></nav>
+  <article class="prose">
+<h2 id="parts">The lensatic compass</h2>
+<p>A lensatic compass is built for sighting. You look through a slot at a distant landmark, line it up with a wire, and read the direction through a small magnifying lens without moving the compass away from your eye. That makes it more precise than a flat baseplate compass for taking bearings, at the cost of being harder to use directly on a map.</p>
+<figure class="fig">
+<div class="fig-scroll" tabindex="0" role="group" aria-label="Diagram, scrolls sideways on small screens"><svg viewBox="0 0 660 270" role="img" aria-labelledby="fig-parts-t">
+  <title id="fig-parts-t">Top view of an open lensatic compass, with its parts labelled from left to right: thumb loop, lens bracket with rear sight slot, compass housing with floating dial and bezel ring, and cover with sighting wire.</title>
+  <g class="d-line">
+    <ellipse cx="52" cy="135" rx="24" ry="30"/>
+    <rect x="96" y="104" width="54" height="62" rx="6"/>
+    <circle cx="123" cy="135" r="13"/>
+    <line x1="123" y1="104" x2="123" y2="96"/>
+    <circle cx="290" cy="135" r="112"/>
+    <circle cx="290" cy="135" r="98" class="d-soft"/>
+    <rect x="420" y="70" width="190" height="130" rx="10"/>
+    <rect x="470" y="88" width="90" height="94" rx="4" class="d-soft"/>
+    <line x1="515" y1="88" x2="515" y2="182" class="d-wire"/>
+  </g>
+  <g class="d-ticks">
+    <line x1="290" y1="45" x2="290" y2="58"/><line x1="380" y1="135" x2="367" y2="135"/><line x1="290" y1="225" x2="290" y2="212"/><line x1="200" y1="135" x2="213" y2="135"/>
+  </g>
+  <path d="M290 62 300 135h-20Z" class="d-accent"/>
+  <path d="M290 208 300 135h-20Z" class="d-soft-fill"/>
+  <line x1="290" y1="23" x2="290" y2="38" class="d-index"/>
+  <rect x="284" y="23" width="12" height="5" class="d-lum"/>
+  <g class="d-label">
+    <line x1="52" y1="105" x2="52" y2="40"/><text x="52" y="32" text-anchor="middle">Thumb loop</text>
+    <line x1="123" y1="166" x2="123" y2="236"/><text x="123" y="254" text-anchor="middle">Lens and rear sight</text>
+    <line x1="352" y1="70" x2="390" y2="30"/><text x="395" y="28">Bezel ring (3° a click)</text>
+    <line x1="284" y1="30" x2="230" y2="22"/><text x="224" y="27" text-anchor="end">Index line</text>
+    <line x1="330" y1="190" x2="360" y2="240"/><text x="365" y="254">Floating dial</text>
+    <line x1="515" y1="200" x2="515" y2="236"/><text x="515" y="254" text-anchor="middle">Cover and sighting wire</text>
+  </g>
+</svg></div>
+<figcaption>Open flat, from above. In use, the cover stands upright and the lens bracket tilts up to about 45°.</figcaption>
+</figure>
+<dl class="parts">
+  <div><dt>Cover and sighting wire</dt><dd>Protects the dial when closed. Opened upright, its thin wire is the front sight you line up on a landmark.</dd></div>
+  <div><dt>Lens and rear sight</dt><dd>The bracket holds a magnifying lens for reading the dial and a slot you look through, like the rear sight on a rifle.</dd></div>
+  <div><dt>Floating dial</dt><dd>Carries the magnet and spins freely to point at magnetic north. It shows degrees and mils (6,400 to a circle); in this handbook we use degrees.</dd></div>
+  <div><dt>Fixed index line</dt><dd>A black line on the glass. The number under it is your bearing.</dd></div>
+  <div><dt>Bezel ring</dt><dd>A notched ring around the glass that clicks in steps of 3° and carries a short luminous line. Use it to set a bearing you want to follow, even in the dark.</dd></div>
+  <div><dt>Thumb loop</dt><dd>Steadies the compass in your hand. To lock the dial for carrying, fold the lens bracket down over the glass before you close the cover.</dd></div>
+</dl>
+
+<h2 id="three-norths">Bearings and the three norths</h2>
+<p>A <strong>bearing</strong> (also called an azimuth) is a direction given as an angle measured clockwise from north: 0° or 360° is north, 90° east, 180° south and 270° west.</p>
+<p>The catch is that there are three norths, and a bearing is only useful if you know which one it is measured from.</p>
+<div class="split">
+<figure class="fig fig-sm">
+<svg viewBox="0 0 220 240" role="img" aria-labelledby="fig-dec-t">
+  <title id="fig-dec-t">A declination diagram like the one in the margin of a topographic map: three lines rise from one point. The middle one, topped by a star, is true north. One to its right, with a half arrowhead, is magnetic north. A third close to true north is grid north.</title>
+  <line x1="110" y1="220" x2="110" y2="40" class="d-line"/>
+  <path d="M110 22 114 34 126 34 116 41 120 53 110 46 100 53 104 41 94 34 106 34Z" class="d-ink-fill"/>
+  <line x1="110" y1="220" x2="158" y2="50" class="d-line d-accent-line"/>
+  <path d="M158 50 148 70 160 66Z" class="d-accent"/>
+  <line x1="110" y1="220" x2="100" y2="58" class="d-line"/>
+  <text x="96" y="76" text-anchor="end" class="d-small">GN</text>
+  <text x="166" y="52" class="d-small">MN</text>
+  <text x="132" y="34" class="d-small">TN</text>
+  <path d="M110 150 A70 70 0 0 1 129 152" class="d-line" fill="none"/>
+  <text x="126" y="142" class="d-small">dec.</text>
+</svg>
+<figcaption>An east declination, not to scale.</figcaption>
+</figure>
+<dl class="parts">
+  <div><dt>True north (TN)</dt><dd>The direction to the North Pole. Map edges run true north–south.</dd></div>
+  <div><dt>Magnetic north (MN)</dt><dd>Where your compass needle points. It wanders slowly, year by year.</dd></div>
+  <div><dt>Grid north (GN)</dt><dd>The direction of the vertical grid lines printed on the map. It is within a degree or two of true north on most US maps, so scouts usually treat the two as the same.</dd></div>
+</dl>
+</div>
+<p>The angle between true and magnetic north is the <strong>declination</strong>. Depending on where you are it can be close to zero or more than 15°, so ignoring it can put you hundreds of metres off over a few kilometres.</p>
+
+<h2 id="taking">Taking a bearing</h2>
+<p>Use the <em>compass-to-cheek</em> method whenever you need accuracy.</p>
+<ol class="steps">
+  <li><strong>Get clear of metal.</strong> Step away from cars, fences and power lines, and hold your phone, knife and metal bottle away from the compass (see <a href="#accuracy">accuracy</a>).</li>
+  <li><strong>Open it.</strong> Stand the cover straight up, tilt the lens bracket up to about 45°, and put your thumb through the thumb loop.</li>
+  <li><strong>Raise it to your eye.</strong> Hold the compass level against your cheek, and look through the rear sight slot.</li>
+  <li><strong>Sight the target.</strong> Turn your whole body until the sighting wire lines up with the landmark: a lone tree, a building corner, a summit.</li>
+  <li><strong>Read the dial.</strong> Without moving, glance down through the lens and let the dial settle. The number under the fixed index line is your magnetic bearing.</li>
+  <li><strong>Write it down,</strong> with what you sighted and whether it is magnetic or true, for example "lone pine, 142° M".</li>
+</ol>
+<p class="tip">For a quick reading that needs to be within about 5°, use the <em>centre-hold</em> method. Open the cover flat, hold the compass level in front of your stomach with both hands, and point the cover at the target.</p>
+
+<h2 id="following">Following a bearing</h2>
+<p>In daylight, turn your body until the bearing you want sits under the index line. Then sight along the wire and pick a landmark on that line. Walk to it, and repeat. Choosing landmarks and walking between them lets you go around obstacles without losing the line.</p>
+<p>The bezel ring lets you set a bearing in advance, even at night:</p>
+<ol class="steps">
+  <li>Turn the bezel until its luminous line sits directly over the fixed index line. This is your zero.</li>
+  <li>Divide the bearing by 3 to get the number of clicks. For 81°, that is 27 clicks.</li>
+  <li>Turn the bezel counterclockwise that many clicks.</li>
+  <li>Hold the compass in the centre-hold position and turn your body until the north arrow on the dial lines up with the luminous line. You are now facing your bearing.</li>
+</ol>
+<p class="tip">If your bearing is not a multiple of 3, set the nearest click and correct by eye. A 1° error is about 17 m over a kilometre.</p>
+
+<h2 id="declination">Correcting for declination</h2>
+<p>Find your declination in the diagram in your map's margin, and check the current value with the <a href="https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml" rel="noopener">NOAA magnetic field calculator</a>, because the printed one may be decades old. Then convert:</p>
+<ul class="rules">
+  <li><strong>Magnetic to true</strong> (compass → map): <em>add</em> an east declination, <em>subtract</em> a west one.</li>
+  <li><strong>True to magnetic</strong> (map → compass): <em>subtract</em> an east declination, <em>add</em> a west one.</li>
+</ul>
+<p>A <strong>back bearing</strong> is the direction back the way you came, or from a landmark to you. Add 180° if the bearing is less than 180°, and subtract 180° if it is 180° or more.</p>
+<form class="calc" id="calc" aria-labelledby="calc-h">
+  <h3 id="calc-h">Bearing calculator</h3>
+  <div class="calc-grid">
+    <label>Bearing<input id="c-bearing" type="number" inputmode="decimal" min="0" max="360" step="any" value="75"></label>
+    <label>It is<select id="c-from"><option value="m">magnetic (compass)</option><option value="t">true (map)</option></select></label>
+    <label>Declination<input id="c-dec" type="number" inputmode="decimal" min="0" max="40" step="any" value="10"></label>
+    <label>Direction<select id="c-dir"><option value="E">east</option><option value="W">west</option></select></label>
+  </div>
+  <output id="c-out" for="c-bearing c-from c-dec c-dir" aria-live="polite">Magnetic 75° is true 85°. The back bearing is 265° true, 255° magnetic.</output>
+</form>
+
+<h2 id="distance">Measuring distance by pacing</h2>
+<p>Over short distances, use a tape. Everywhere else, count paces. A <strong>pace</strong> is two steps: count each time your left foot lands.</p>
+<ol class="steps">
+  <li>Measure out 100 m on flat ground with a tape, or use a running track.</li>
+  <li>Walk it at your normal hiking pace, counting paces. Do it three times and take the average. Most people take 60 to 70 paces.</li>
+  <li>Write your number inside your compass cover or notebook. That is your pace count.</li>
+</ol>
+<p>Your pace shortens uphill, in thick brush, in the dark and when you are carrying a heavy pack, so your count goes up. Practise on a slope to learn by how much. To keep count over long distances, move a bead along a cord or a pebble between pockets every 100 m.</p>
+
+<h2 id="resection">Finding where you are</h2>
+<p>If you can see landmarks that are on your map, you can find your own position. This is called <strong>resection</strong>, though many guides call it triangulation.</p>
+<figure class="fig">
+<div class="fig-scroll" tabindex="0" role="group" aria-label="Diagram, scrolls sideways on small screens"><svg viewBox="0 0 560 280" role="img" aria-labelledby="fig-res-t">
+  <title id="fig-res-t">Resection on a map. A radio tower in the upper left and a summit in the upper right are both marked. A line is drawn from each along its back bearing, and the two lines cross at the observer's position, lower centre.</title>
+  <rect x="10" y="10" width="540" height="260" rx="6" class="d-line d-paper"/>
+  <g class="d-contour"><ellipse cx="440" cy="70" rx="40" ry="26"/><ellipse cx="440" cy="70" rx="70" ry="46"/><ellipse cx="440" cy="70" rx="100" ry="66"/></g>
+  <path d="M120 40 132 70 108 70Z" class="d-ink-fill"/><text x="140" y="56" class="d-small">Radio tower</text>
+  <path d="M440 64 446 76 434 76Z" class="d-ink-fill"/><text x="456" y="80" class="d-small">Summit</text>
+  <line x1="120" y1="62" x2="303" y2="221" class="d-line d-accent-line"/>
+  <line x1="440" y1="72" x2="303" y2="221" class="d-line d-accent-line"/>
+  <circle cx="303" cy="221" r="9" class="d-line d-you"/>
+  <text x="318" y="250" class="d-small">You are here</text>
+  <text x="222" y="128" text-anchor="middle" class="d-small" transform="rotate(41 222 128)">back bearing 131°</text>
+  <text x="386" y="166" text-anchor="middle" class="d-small" transform="rotate(-47 386 166)">back bearing 223°</text>
+</svg></div>
+<figcaption>You took 311° to the tower and 43° to the summit (true). Their back bearings, 131° and 223°, cross where you stand.</figcaption>
+</figure>
+<ol class="steps">
+  <li>Orient your map (see <a href="maps.html#orient">Reading a topographic map</a>) and identify two or three landmarks that appear on it, ideally about 60° to 120° apart as seen from you.</li>
+  <li>Take a bearing to each, and convert each to true.</li>
+  <li>Work out each back bearing.</li>
+  <li>With a protractor, draw a line on the map from each landmark along its back bearing. Where the lines cross is your position.</li>
+  <li>With three landmarks the lines rarely meet at one point. They make a small <em>triangle of error</em>, and you are inside it. A large triangle means a bad reading: take the bearings again.</li>
+</ol>
+<p>If you know you are on a linear feature such as a trail, a river or a ridge, one bearing is enough. You are where that back bearing crosses the feature.</p>
+
+<h2 id="mapping">Mapping an area</h2>
+<p>You can map a campsite, a trail or a stretch of creek with nothing more than a compass, your pace count and a notebook. Walk a chain of straight <em>legs</em> between points you choose (called stations). For each leg, write down the bearing and the distance.</p>
+<div class="table-wrap"><table class="log">
+  <caption>A field notebook page for a short traverse around a campsite</caption>
+  <thead><tr><th scope="col">Leg</th><th scope="col">From → to</th><th scope="col">Bearing (true)</th><th scope="col">Paces</th><th scope="col">Metres</th><th scope="col">Notes</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Gate → fire ring</td><td>064°</td><td>38</td><td>58</td><td>Trail on left</td></tr>
+    <tr><td>2</td><td>Fire ring → big oak</td><td>151°</td><td>21</td><td>32</td><td>Picnic table 10 m right</td></tr>
+    <tr><td>3</td><td>Big oak → water tap</td><td>232°</td><td>30</td><td>46</td><td>Ground slopes down</td></tr>
+    <tr><td>4</td><td>Water tap → gate</td><td>316°</td><td>29</td><td>44</td><td>Ends about 1 m from the gate</td></tr>
+  </tbody>
+</table></div>
+<ol class="steps">
+  <li><strong>Start the sheet.</strong> Draw a north arrow and a scale bar, for example 1 cm = 5 m, and mark your starting station.</li>
+  <li><strong>Plot each leg.</strong> Lay a protractor on the station, mark the bearing, and draw a line of the right length to scale.</li>
+  <li><strong>Add features</strong> from your notes, either measured from the nearest station or sketched by eye. Use simple, consistent symbols and include a key.</li>
+  <li><strong>Close the loop.</strong> If your last leg returns to the start, the gap between where it ends and where you began shows your total error. Under about 5% of the distance walked is good work.</li>
+  <li><strong>Finish the map</strong> with a title, the date, your name, the scale and whether north is true or magnetic.</li>
+</ol>
+
+<h2 id="slopes">Slopes and heights</h2>
+<p>A clinometer measures the angle of a slope. Some baseplate compasses have one built in, but a lensatic compass does not, so carry a separate clinometer or make one from a protractor, a straw and a weighted string.</p>
+<p>To estimate the height of a tree or cliff: stand a measured distance from its base, sight the top, and read the angle. The height is the distance times the tangent of the angle, plus your eye height. At 30 m and 35°, that is 30 × 0.70 = 21 m, plus about 1.5 m, so roughly 22.5 m. A useful shortcut: at 45°, the height above your eye equals your distance from the base.</p>
+
+<h2 id="accuracy">Accuracy and safety</h2>
+<p>Iron, steel and electric currents pull the needle. The US Army's land navigation manual gives safe distances like these:</p>
+<div class="table-wrap"><table class="log">
+  <caption>Approximate distances to keep a compass from metal (from US Army TC 3-25.26)</caption>
+  <thead><tr><th scope="col">Object</th><th scope="col">Keep at least</th></tr></thead>
+  <tbody>
+    <tr><td>High-voltage power lines</td><td>55 m</td></tr>
+    <tr><td>Cars and trucks</td><td>18 m</td></tr>
+    <tr><td>Telephone wires and barbed-wire fences</td><td>10 m</td></tr>
+    <tr><td>Phones, knives, metal bottles and belt buckles</td><td>arm's length</td></tr>
+  </tbody>
+</table></div>
+<ul class="rules">
+  <li>Take every important bearing twice. If two readings differ by more than 2°, take a third and average the two closest.</li>
+  <li>Cross-check with a GPS or phone where you have one, but never rely on a battery to get home.</li>
+  <li>Before you set out, leave your route and return time with someone responsible (see <a href="essentials.html#trip-plan">the trip plan</a>).</li>
+  <li>If you become lost: stop, think, observe, plan. Stay put if you cannot work out where you are.</li>
+</ul>
+
+<h2 id="kit">What to bring</h2>
+<ul class="kit">
+  <li>Lensatic compass</li><li>Topographic map of the area, in a waterproof bag</li><li>Notebook and pencil</li><li>Protractor and ruler</li><li>Measuring tape, for calibrating your pace</li><li>Clinometer (optional)</li><li>GPS or phone for cross-checking (optional)</li>
+</ul>
+<p class="source">This chapter grew from the original <a href="about.html#original">Surveying and Mapping with a Lensatic Compass</a> guide in this repository. The procedures follow the US Army's <a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf" rel="noopener">TC 3-25.26, Map Reading and Land Navigation</a>.</p>
+<section class="skills" aria-labelledby="skills-h" data-chapter="compass" data-total="7">
+  <h2 id="skills-h">Skills check</h2>
+  <p>Tick each skill once you can do it without the book, in front of a leader or a friend who already can. Your ticks are saved in this browser only.</p>
+  <ol class="checklist"><li><label><input type="checkbox" data-check="compass-0"><span>Name the parts of a lensatic compass and say what each one does.</span></label></li><li><label><input type="checkbox" data-check="compass-1"><span>Take a bearing to a landmark and read it within 2° of a partner&#x27;s reading.</span></label></li><li><label><input type="checkbox" data-check="compass-2"><span>Set a bearing on the bezel ring by counting clicks, and follow it to a marker at least 100 m away.</span></label></li><li><label><input type="checkbox" data-check="compass-3"><span>Convert a magnetic bearing to a true bearing for your area, and work out its back bearing.</span></label></li><li><label><input type="checkbox" data-check="compass-4"><span>Know your pace count for 100 metres on flat ground.</span></label></li><li><label><input type="checkbox" data-check="compass-5"><span>Find your position on a map from bearings to two or more landmarks.</span></label></li><li><label><input type="checkbox" data-check="compass-6"><span>Survey a campsite by compass and pacing, and draw it with a north arrow and scale bar.</span></label></li></ol>
+  <p class="skills-foot"><span class="progress-text" data-progress="compass">0 of 7 skills</span> <button type="button" class="link-btn" data-reset="compass">Clear my ticks</button></p>
+</section>
+  </article>
+</div>
+<div class="wrap"><nav class="pager" aria-label="Chapters"><a class="pg next" href="maps.html"><small>Chapter 2</small>Reading a topographic map</a></nav></div>
+</main>
+<footer class="foot"><div class="wrap foot-in">
+  <p><strong>Compass &amp; Trail</strong> is an independent, open-source handbook. It is not affiliated with or endorsed by any scouting organisation. Learn hands-on skills from a qualified leader, and take a certified first-aid course.</p>
+  <p><a href="about.html#sources">Sources</a> · <a href="https://github.com/SolutionsAsService/Guides" rel="noopener">Source on GitHub</a> · MIT licensed</p>
+  <p><a href="https://demo.ultimatebusinessmachines.com/portfolio">Part of the Ultimate Business Machines portfolio</a></p>
+</div></footer>
+<script src="js/handbook.js" defer></script>
+</body>
+</html>

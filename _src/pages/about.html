@@ -1,0 +1,41 @@
+title: About · Compass & Trail
+description: What Compass & Trail is, the original lensatic compass guide it grew from, what we corrected, our sources and how to contribute.
+---
+<header class="page-head wrap">
+  <h1>About this handbook</h1>
+  <p class="lede">Compass &amp; Trail is a free, open handbook of outdoor skills for scouts, their leaders and anyone learning to find their way outdoors.</p>
+</header>
+<div class="wrap about"><div class="prose">
+<h2 id="what">What it is</h2>
+<p>It is an independent project, published as open source under the MIT licence. It is not affiliated with or endorsed by any scouting organisation, and it does not replace your organisation's own handbook, requirements or safety rules. Where they differ, follow your organisation and your leaders.</p>
+<p>Outdoor skills are learned by doing. Use this handbook to prepare and to refresh what you have learned, and practise every skill outside with a qualified leader.</p>
+
+<h2 id="original">The original guide</h2>
+<p>This repository began as a single structured guide: <em>Surveying and Mapping with a Lensatic Compass</em>, written as JSON so that it could be read by people and programs alike. It is the seed of <a href="compass.html">Chapter 1</a> and is kept, unchanged, in <code>docs/</code>. You can also <a href="original/SurveyingAndMappingWithLensaticCompass.json" download>download the original file</a>.</p>
+<details class="orig">
+  <summary>Show the original guide</summary>
+  <div class="ascii" tabindex="0" aria-label="The original guide as JSON, scrolls sideways"><pre>{{original}}</pre></div>
+</details>
+<p>When we turned it into a chapter, we corrected and expanded it:</p>
+<ul class="rules">
+  <li><strong>Reading a bearing.</strong> The original said to turn the dial to meet the needle. On a lensatic compass the dial turns by itself, and you read the bearing under the fixed index line. The bezel ring is for setting a bearing to follow.</li>
+  <li><strong>Triangulation.</strong> To find your own position, you draw lines from the landmarks along their <em>back bearings</em>, not the bearings you took. The chapter explains back bearings and the triangle of error.</li>
+  <li><strong>Declination.</strong> The rule for converting between magnetic and true bearings is now spelled out, with a calculator.</li>
+  <li><strong>Slopes.</strong> A lensatic compass has no clinometer, so the chapter now uses a separate one, with a worked height example.</li>
+  <li><strong>Interference.</strong> We added safe distances from metal from the US Army manual, how to calibrate a pace count, and a worked field notebook for mapping an area.</li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+<ul class="sources">
+  <li>US Army, <a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN19970-TC_3-25.26-000-WEB-1.pdf" rel="noopener">TC 3-25.26, Map Reading and Land Navigation</a>: lensatic compass use, interference distances and resection.</li>
+  <li>NOAA, <a href="https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml" rel="noopener">Magnetic Field Calculators</a>: current declination for your location.</li>
+  <li>US Geological Survey, <a href="https://www.usgs.gov/programs/national-geospatial-program/topographic-maps" rel="noopener">Topographic Maps</a> and <a href="https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf" rel="noopener">Topographic Map Symbols</a>.</li>
+  <li>The Mountaineers, <a href="https://www.mountaineers.org/blog/what-are-the-ten-essentials" rel="noopener">What Are the Ten Essentials?</a></li>
+  <li>Leave No Trace Center for Outdoor Ethics, <a href="https://lnt.org/why/7-principles/" rel="noopener">The 7 Principles</a>.</li>
+  <li>CDC: <a href="https://www.cdc.gov/water-emergency/about/index.html" rel="noopener">making water safe</a>, <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" rel="noopener">removing a tick</a>, <a href="https://www.cdc.gov/heat-health/about/index.html" rel="noopener">heat and health</a> and <a href="https://www.cdc.gov/winter-weather/about/index.html" rel="noopener">winter weather</a>.</li>
+  <li>Animated Knots by Grog, <a href="https://www.animatedknots.com/" rel="noopener">animatedknots.com</a>: step-by-step animations for the knots chapter.</li>
+</ul>
+
+<h2 id="contributing">Contributing</h2>
+<p>Every chapter is a plain HTML file in <code>_src/pages/</code>, and the chapter list and skills checks live in <code>_src/chapters.json</code>. Edit them, run <code>python _src/build.py</code>, and open a pull request on <a href="https://github.com/SolutionsAsService/Guides" rel="noopener">GitHub</a>. Corrections with a source are especially welcome.</p>
+</div></div>
